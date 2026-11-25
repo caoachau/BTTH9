@@ -1,0 +1,1009 @@
+--- Trang 1 ---
+Bài tập lưu hình bằng đường dẫn: 
+Bài 1: Giả sử ta có csdl tên là online_shop. Tạo bảng nguoi_dung trong csdl này 
+ 
+CREATE TABLE `nguoi_dung` ( 
+  `username` varchar(20) COLLATE utf8_unicode_ci NOT NULL, 
+  `password` varchar(20) COLLATE utf8_unicode_ci NOT NULL, 
+  `hoten` varchar(50) COLLATE utf8_unicode_ci NOT NULL, 
+  `gioitinh` bit(2) NOT NULL, 
+  `quocgia` varchar(30) COLLATE utf8_unicode_ci NOT NULL, 
+  `hinhdaidien` text COLLATE utf8_unicode_ci NOT NULL, 
+  PRIMARY KEY (`username`) 
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci; 
+ 
+Bài 2: Trang ketnoi.php để tạo kết nối từ Web của bạn đến server đang chứa cơ sở dữ liệu của web 
+ 
+<?php 
+$kn=mysql_connect("localhost","root","") or die ("Không thể kết nối đến server".mysql_error()); 
+$csdl=mysql_select_db("online_shop",$kn) or die ("Không thể chọn được được csdl online_shop". 
+mysql_error()); 
+mysql_query("SET NAMES 'utf8'", $kn); 
+?> 
+ 
+Bài 3: Trang dangky.php 
+ 
+<html> 
+<head><title></title><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head> 
+<body> 
+<h1 align="center">Trang đăng ký thành viên</h1> 
+<form enctype="multipart/form-data" action="xlydangky.php" name="frmdk" method="post"> 
+<table align="center"> 
+<tr> 
+<td>Tên đăng nhập: </td> 
+<td><input type="text" name="tendn" /></td> 
+</tr> 
+<tr> 
+<td>Mật khẩu: </td> 
+<td><input type="password" name="matkhau" /></td> 
+</tr> 
+<tr> 
+<td>Họ tên: </td> 
+<td><input type="text" name="hoten" /></td> 
+</tr> 
+<tr> 
+<td>Giới tính: </td> 
+<td><input type="radio" name="gioitinh" value="0" /> Nam &nbsp;&nbsp; <input type="radio" 
+name="gioitinh" value="1" /> Nữ</td> 
+</tr> 
+<tr> 
+<td>Quốc gia: </td> 
+<td><select name="quocgia"> 
+ 
+ 
+<option value="vn" selected="selected"> Viet Nam </option> 
+ 
+ 
+<option value="cn">China</option> 
+ 
+ 
+<option value="jp">Japan </option> 
+
+
+--- Trang 2 ---
+ 
+ 
+<option value="k"> Khác</option> 
+ 
+</select> 
+</td> 
+</tr> 
+<tr> 
+<td>Ảnh đại diện: </td> 
+<td><input type="hidden" name="MAX_FILE_SIZE" value="1000000" /> 
+<input type="file" name="hinhanh" /> 
+</td> 
+</tr> 
+<tr> 
+<td><input type="submit" name="dangky" value="Đăng Ký" /></td> 
+<td><input type="reset" name="lamlai" value="Làm lại" /></td> 
+</tr> 
+</table> 
+</form> 
+</body> 
+</html> 
+ 
+Sẽ được giao diện sau:  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+--- Trang 3 ---
+Bài 4: Trang xlydangky.php 
+ 
+<?php 
+session_start(); 
+?> 
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml"> 
+<head> 
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+<title>Untitled Document</title> 
+</head> 
+ 
+<body> 
+<?php 
+include ("ketnoi.php"); 
+$tdn=$_POST["tendn"]; 
+$mk=$_POST["matkhau"]; 
+$ht=$_POST["hoten"]; 
+$gt=$_POST["gioitinh"]; 
+$qg=$_POST["quocgia"]; 
+/*Kiểm tra tên người dùng này có hợp lệ không*/ 
+$sql_1="select * from nguoi_dung where username='".$tdn."'"; 
+ 
+$kq_1=mysql_query($sql_1, $kn) or die ("Không thể truy xuất bảng nguoi_dung".mysql_error()); 
+if(mysql_fetch_array($kq_1)) 
+ 
+{ 
+ 
+ 
+echo "<script language=javascript> 
+ 
+ 
+alert('Đã có tên đăng nhập này. Bạn hãy chọn tên đăng nhập khác!'); 
+ 
+ 
+window.location='dangky.php'; 
+ 
+ 
+</script>"; 
+ 
+}/*hết phần kiểm tra*/ 
+ 
+ 
+$duongdan="HINHANH/"; /*lưu ý: thư mục này phải được tạp trước trong thư mục chứa bài tập này*/ 
+$duongdan=$duongdan.basename($_FILES["hinhanh"]["name"]); /*đường dẫn đến file cần up lên, cái 
+này dùng để lưu vào csdl*/ 
+$file_tam=$_FILES["hinhanh"]["tmp_name"];/*muốn đưa file từ máy người dùng lên server phải thông 
+qua file tạm này*/ 
+move_uploaded_file($file_tam,$duongdan); 
+/*PHẦN INSERT NÀY CHỈ LƯU TRỮ ĐƯỜNG DẪN CHỨA FILE HÌNH VÀ TÊN HÌNH CHỨ 
+KHÔNG LƯU HÌNH VÀO CSDL*/  
+$sql_2="insert into nguoi_dung values('".$tdn."','".$mk."','".$ht."',".$gt.",'".$qg."','".$duongdan."')"; 
+$kq_2=mysql_query($sql_2,$kn) or die ("Không thể thêm người dùng này".mysql_error()); 
+$_SESSION["nguoidung"]=$tdn; 
+echo "<script language=javascript> 
+ 
+alert('Đăng ký thành công'); 
+ 
+window.location='trangtt_canhan.php'; 
+ 
+</script>"; 
+ 
+?> 
+</body> 
+</html> 
+
+
+--- Trang 4 ---
+Bài 5: Trang trangtt_canhan.php để hiển thị thông tin cá nhân của người vừa đăng ký thành công. Cách 
+xuất hình đại diện. 
+ 
+<?php session_start(); 
+if(!isset($_SESSION["nguoidung"])) 
+ 
+{ 
+ 
+echo "<script language=javascript> 
+ 
+ 
+alert('Bạn không có quyền trên trang này!'); 
+ 
+ 
+window.location='dangky.php'; 
+ 
+ 
+</script>"; 
+ 
+} 
+?> 
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml"> 
+<head> 
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+<title>Untitled Document</title> 
+</head> 
+ 
+<body> 
+<table align="center"> 
+<tr bgcolor="#CCCCCC"> 
+<td align="right"> Xin chào <?php echo $_SESSION["nguoidung"]; ?> &nbsp;&nbsp;| <a 
+href="thoat.php">Thoát</a></td> 
+</tr> 
+<tr> 
+<td>THÔNG TIN CỦA BẠN</td> 
+</tr> 
+<?php 
+include("ketnoi.php"); 
+$user=$_SESSION["nguoidung"]; 
+$sql="select * from nguoi_dung where username='".$user."'"; 
+$kq=mysql_query($sql,$kn) or die ("Không thể xuất thông tin người dùng ".mysql_error()); 
+while($row=mysql_fetch_array($kq)) 
+ 
+{ 
+ 
+ 
+echo "<tr>"; 
+ 
+ 
+echo "<td>Họ và tên: ".$row["hoten"]."</td>"; 
+ 
+ 
+echo "</tr>"; 
+ 
+ 
+echo "<tr>"; 
+ 
+ 
+echo "<td>Giới tính: "; 
+ 
+ 
+ 
+ 
+ 
+if ($row["gioitinh"]==0) 
+ 
+ 
+ 
+echo "Nam"; 
+ 
+ 
+else echo "Nữ"; 
+ 
+ 
+echo "</td>"; 
+ 
+ 
+echo "</tr>"; 
+ 
+ 
+echo "<tr>"; 
+ 
+ 
+echo "<td>Thuộc quốc tịch: ".$row["quocgia"]."</td>"; 
+ 
+ 
+echo "</tr>"; 
+ 
+ 
+echo "<tr>"; 
+ 
+ 
+echo "<td>Ảnh đại diện: <img src= ".$row["hinhdaidien"]."></td>"; 
+ 
+ 
+echo "</tr>"; 
+
+
+--- Trang 5 ---
+ 
+} 
+?> 
+ 
+ 
+</table> 
+</body> 
+</html> 
+Bài 6: trang thoát 
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml"> 
+<head> 
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+<title>Untitled Document</title> 
+</head> 
+ 
+<body> 
+<?php 
+session_start(); 
+session_destroy(); 
+echo "<script language=javascript> 
+ 
+alert ('Bạn đã thoát ra khỏi hệ thống!'); 
+ 
+window.location='dangnhap.php'; 
+ 
+</script> 
+ 
+"; 
+?> 
+</body> 
+</html> 
+Bài 7: Trang đăng nhập hệ thống:  
+<HTML> 
+<HEAD> 
+<TITLE>Trang đăng nhập</TITLE> 
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></HEAd> 
+<body> 
+<h1 align="center">ĐĂNG NHẬP</h1> 
+ <form action="xuly_dangnhap.php" name="dangnhap" method="post">  
+ 
+<table align="center" border="0"> 
+<tr><td> 
+Username:</td><td> <input type="text" name="tendn" /></td></tr> 
+<tr><td>Password: </td><td><input type="password" name="matkhau" maxlength="10" /> </td></tr> 
+<tr> 
+<td><input style="color:#FF3366;" type="submit" name="dn"  value="Đăng nhập"/></td> 
+<td align="center"><input style="color:#FF3366;" type="reset" name="ll" value="Làm lại" /></td> 
+</tr> 
+</table> 
+</form> 
+</body> 
+</HTML> 
+
+
+--- Trang 6 ---
+ 
+Bài 8: Trang xuly_dangnhap.php 
+<?php session_start(); ?> 
+<!DOCTYPE 
+html 
+PUBLIC 
+"-//W3C//DTD 
+XHTML 
+1.0 
+Transitional//EN" 
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml"> 
+<head> 
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+<title>Untitled Document</title> 
+</head> 
+ 
+<body> 
+<?php 
+ 
+include("ketnoi.php"); 
+$user=$_POST["tendn"];//nhận giá trị từ ô nhập liệu Tên đăng nhập của file dangnhap.php 
+$pass=$_POST["matkhau"];//nhận giá trị từ ô nhập liệu Mật khẩu của file dangnhap.php 
+$sql="select * from nguoi_dung where username='".$user ."' and password ='". $pass."'"; // câu lệnh SQL 
+-> kiểm tra tên đăng nhập và mật khẩu có trùng với tài khoản nguoi_dung trong csdl không 
+$kq=mysql_query($sql, $kn) or die ("Không thể mở bảng admin".mysql_error());// thực thi câu lệnh SQL 
+if (mysql_fetch_array($kq)) 
+ 
+{ 
+ 
+$_SESSION["nguoidung"]=$user; 
+ 
+echo ("<script language=javascript> 
+ 
+alert('Đăng nhập thành công'); 
+ 
+window.location='trangtt_canhan.php'; 
+ 
+</script> 
+ 
+"); 
+ 
+} 
+else 
+ 
+{ 
+ 
+echo ("<script language=javascript> 
+ 
+alert('Sai tên đăng nhập hoặc mật khẩu'); 
+ 
+window.location='dangnhap.php'; 
+ 
+</script> 
+ 
+"); 
+ 
+} 
+ 
+ 
+?> 
+</body> 
+</html> 
+Bài 9: trang đăng nhập quản trị: 
+<HTML> 
+<HEAD> 
+
+
+--- Trang 7 ---
+<TITLE>Trang đăng nhập</TITLE> 
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></HEAd> 
+<body> 
+<h1 align="center">ĐĂNG NHẬP QUẢN TRỊ</h1> 
+ <form action="xuly_dangnhapQT.php" name="dangnhap" method="post">  
+ 
+<table align="center" border="0"> 
+<tr><td> 
+Tên đăng nhập:</td><td> <input type="text" name="tendn" /></td></tr> 
+<tr><td>Mật khẩu:</td><td><input type="password" name="matkhau" /> </td></tr> 
+<tr> 
+<td><input style="color:#FF3366;" type="submit" name="dn"  value="Đăng nhập"/></td> 
+<td align="center"><input style="color:#FF3366;" type="reset" name="ll" value="Làm lại" /></td> 
+</tr> 
+</table> 
+</form> 
+</body> 
+</HTML> 
+ 
+Bài 10: Trang xuly_dangnhapQT.php 
+<?php session_start(); ?> 
+<!DOCTYPE 
+html 
+PUBLIC 
+"-//W3C//DTD 
+XHTML 
+1.0 
+Transitional//EN" 
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml"> 
+<head> 
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+<title>Untitled Document</title> 
+</head> 
+ 
+<body> 
+<?php 
+ 
+include("ketnoi.php"); 
+$user=$_POST["tendn"];//nhận giá trị từ ô nhập liệu Tên đăng nhập của file dangnhapQT.php 
+$pass=$_POST["matkhau"];//nhận giá trị từ ô nhập liệu Mật khẩu của file dangnhapQT.php 
+$sql="select * from admin where user_admin='".$user ."' and pass_admin ='". $pass."'"; // câu lệnh SQL -
+> kiểm tra tên đăng nhập và mật khẩu có trùng với tài khoản admin trong csdl không 
+$kq=mysql_query($sql, $kn) or die ("Không thể mở bảng admin".mysql_error());// thực thi câu lệnh SQL 
+if (mysql_fetch_array($kq)) 
+ 
+{ 
+ 
+$_SESSION["nguoiquantri"]=$user; 
+ 
+echo ("<script language=javascript> 
+ 
+alert('Đăng nhập thành công'); 
+ 
+window.location='quantri.php'; 
+
+
+--- Trang 8 ---
+ 
+</script> 
+ 
+"); 
+ 
+} 
+else 
+ 
+{ 
+ 
+echo ("<script language=javascript> 
+ 
+alert('Sai tên đăng nhập hoặc mật khẩu'); 
+ 
+window.location='dangnhapQT.php'; 
+ 
+</script> 
+ 
+"); 
+ 
+} 
+ 
+ 
+?> 
+</body> 
+</html> 
+Bài 11: Trang quantri.php chứa các thông tin người dùng của hệ thống. Tại đây người quản trị có quyền 
+sửa / xóa thông tin người dùng 
+<?php session_start(); 
+if(!isset($_SESSION["nguoiquantri"])) 
+ 
+{ 
+ 
+echo "<script language=javascript> 
+ 
+ 
+alert('Bạn không có quyền trên trang này!'); 
+ 
+ 
+window.location='dangnhapQT.php'; 
+ 
+ 
+</script>"; 
+ 
+} 
+?> 
+<!DOCTYPE 
+html 
+PUBLIC 
+"-//W3C//DTD 
+XHTML 
+1.0 
+Transitional//EN" 
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml"> 
+<head> 
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+<title>Untitled Document</title> 
+</head> 
+ 
+<body> 
+<table align="center"> 
+<tr bgcolor="#CCCCCC"> 
+<td align="right"> Xin chào <?php echo $_SESSION["nguoidung"]; ?> &nbsp;&nbsp;| <a 
+href="thoatQT.php">Thoát</a></td> 
+</tr> 
+<tr> 
+<td align="center">THÔNG TIN NGƯỜI DÙNG 
+<table border="1"> 
+<tr> 
+<th>Tên đăng nhập</th> 
+<th>Mật khẩu</th> 
+<th>Họ và tên</th> 
+<th>Giới tính</th> 
+<th>Quốc gia</th> 
+<th>Hình đại diện</th> 
+<th>Sửa</th> <!-- Thêm cột này--> 
+<th>Xóa</th> 
+
+
+--- Trang 9 ---
+</tr> 
+<?php 
+include("ketnoi.php"); 
+$sql="select * from nguoi_dung "; 
+$kq=mysql_query($sql,$kn) or die ("Không thể xuất thông tin người dùng ".mysql_error()); 
+while($row=mysql_fetch_array($kq)) 
+ 
+{ 
+ 
+ 
+echo "<tr>"; 
+ 
+ 
+echo "<td> ".$row["username"]."</td>"; 
+ 
+ 
+$usern=$row["username"]; // Gán dữ liệu cột username vào biến $usern 
+ 
+ 
+echo "<td> ".$row["password"]."</td>"; 
+ 
+ 
+echo "<td> ".$row["hoten"]."</td>"; 
+ 
+ 
+echo "<td>".$row["gioitinh"]."</td>"; 
+ 
+ 
+echo "<td>".$row["quocgia"]."</td>"; 
+ 
+ 
+echo "<td><img src= '".$row["hinhdaidien"]."' height='50' width='50'></td>"; 
+ 
+ 
+echo "<td><a href='sua.php?user=$usern'>Sửa</a></td>";//Thêm cột sửa tương ứng + 
+truyền biến user (chứa thông tin về tên đăng nhập) sang file sua.php 
+ 
+ 
+echo "<td><a href='xoa.php?user=$usern'>Xóa</a></td>"; 
+ 
+ 
+echo "</tr>"; 
+ 
+} 
+?> 
+ 
+ 
+</table> 
+</body> 
+</html> 
+Bài 12: trang sua.php dùng để hiển thị thông tin của một người dùng nào đó cần sửa 
+<?php session_start(); 
+if(!isset($_SESSION["nguoiquantri"])) 
+ 
+{ 
+ 
+echo "<script language=javascript> 
+ 
+ 
+alert('Bạn không có quyền trên trang này!'); 
+ 
+ 
+window.location='dangkyQT.php'; 
+ 
+ 
+</script>"; 
+ 
+} 
+?> 
+<!DOCTYPE 
+html 
+PUBLIC 
+"-//W3C//DTD 
+XHTML 
+1.0 
+Transitional//EN" 
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml"> 
+<head> 
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+<title>Untitled Document</title> 
+</head> 
+ 
+<body> 
+<?php 
+include("ketnoi.php"); 
+$user_sua=$_REQUEST["user"]; //Nhận giá trị user từ link sửa của quantri.php  
+$sql="select * from nguoi_dung where username='".$user_sua."'";//chọn ra dòng thông tin của người dùng 
+được chọn để sửa 
+$kq=mysql_query($sql,$kn) or die ("Không thể xuất thông tin người dùng ".mysql_error()); // chạy câu 
+lệnh sql 
+
+
+--- Trang 10 ---
+echo 
+("<form 
+name='frmsua' 
+action='thuchien_sua.php' 
+method='post' 
+enctype='multipart/form-
+data'>");//mở form để hiển thị lại thông tin cũ của người dùng cần sửa 
+echo ("<table align='center' width='60%'>"); 
+//hiển thị lại thông tin theo bảng  
+while ($row=mysql_fetch_array($kq)) 
+{ 
+ 
+echo ("<tr>"); 
+ 
+echo 
+("<td>Username: 
+</td> 
+<td><input 
+type='text' 
+readonly='readonly' 
+name='tendn' 
+value='".$row["username"]."'></td>"); 
+ 
+echo ("</tr>"); 
+ 
+echo ("<tr>"); 
+ 
+echo 
+("<td>Mật 
+khẩu: 
+</td> 
+<td><input 
+type='password' 
+ 
+name='matkhau' 
+value='".$row["password"]."'></td>"); 
+ 
+echo ("</tr>"); 
+ 
+echo ("<tr>"); 
+ 
+echo ("<td>Họ tên: </td> <td><input type='text' name='hoten' value='".$row["hoten"]."'></td>"); 
+ 
+echo ("</tr>"); 
+ 
+echo ("<tr>"); 
+ 
+echo ("<td>Giới tính: </td>"); 
+ 
+if($row["gioitinh"]==0) 
+ 
+ 
+echo ("<td><input type='radio' name='gioitinh' value='0' checked='checked' >Nam 
+&nbsp;&nbsp; <input type='radio' name='gioitinh' value='1' > Nữ</td>"); 
+ 
+else 
+ 
+ 
+echo ("<td><input type='radio' name='gioitinh' value='0'  >Nam &nbsp;&nbsp; <input 
+type='radio' name='gioitinh' value='1' checked='checked' > Nữ</td>"); 
+ 
+echo ("</tr>"); 
+ 
+echo ("<tr>"); 
+ 
+echo ("<td>Quốc gia </td> "); 
+ 
+//nếu thông tin cũ về quốc gia là Việt Nam là option Việt Nam được chọn mặc định, ngược lại nếu 
+quốc gia của người dùng là China thì option China được chọn mặc định.... tương tự cho những dòng sau 
+ 
+if($row["quocgia"]=="Việt Nam") 
+ 
+ 
+echo ("<td><select name='quocgia'><option value='Việt Nam' selected='selected'>Việt 
+Nam</option> 
+ 
+ 
+<option value='China'>China</option> 
+ 
+ 
+<option value='Japan'>Japan</option> 
+ 
+ 
+<option value='Khác'>Khác</option></select></td>"); 
+ 
+else if($row["quocgia"]=="China") 
+ 
+ 
+echo ("<td><select name='quocgia'><option value='Việt Nam'>Việt Nam</option> 
+ 
+ 
+<option value='China'  selected='selected'>China</option> 
+ 
+ 
+<option value='Japan'>Japan</option> 
+ 
+ 
+<option value='Khác'>Khác</option></select></td>"); 
+ 
+else if($row["quocgia"]=="Japan") 
+ 
+ 
+echo ("<td><select name='quocgia'><option value='Việt Nam'>Việt Nam</option> 
+ 
+ 
+<option value='China'>China</option> 
+ 
+ 
+<option value='Japan'  selected='selected'>Japan</option> 
+ 
+ 
+<option value='Khác'>Khác</option></select></td>"); 
+ 
+else 
+ 
+ 
+echo ("<td><select name='quocgia'><option value='Việt Nam' >Việt Nam</option> 
+ 
+ 
+<option value='China'>China</option> 
+ 
+ 
+<option value='Japan'>Japan</option> 
+ 
+ 
+<option value='Khác' selected='selected'>Khác</option></select></td>"); 
+ 
+echo ("</tr>"); 
+ 
+echo ("<tr>"); 
+
+
+--- Trang 11 ---
+ 
+//hiển thị lại hình cũ nếu có, đồng thời cho phép người dùng đổi hình đại diện nếu muốn (chọn ảnh 
+mới) 
+ 
+echo 
+("<td>Hình 
+đại 
+diện: 
+</td><td><img 
+src='".$row["hinhdaidien"]."' 
+height='50' 
+width='50'><input 
+type='hidden' 
+name='hinhcu' 
+value='".$row["hinhdaidien"]."'>Ảnh 
+mới:<input 
+type='hidden' 
+name='MAX_FILE_SIZE' 
+value='1000000' 
+/> 
+<input 
+type='file' 
+name='hinh' 
+value=''></td>"); 
+ 
+echo ("</tr>"); 
+ 
+echo ("<tr>"); 
+ 
+echo ("<td><input type='submit' name='suatt' value='Sửa thông tin'></td>"); 
+ 
+echo ("<td><input type='reset' name='huybo' value='Hủy bỏ'></td>"); 
+ 
+echo ("</tr>"); 
+} 
+echo ("</table>"); 
+echo ("</form>"); 
+?> 
+</table> 
+</body> 
+</html> 
+Bài 13: Trang thuchien_sua.php thực hiện lệnh sửa thông tin 
+<?php session_start(); 
+if(!isset($_SESSION["nguoiquantri"]))// kiểm tra quyền 
+ 
+{ 
+ 
+echo "<script language=javascript> 
+ 
+ 
+alert('Bạn không có quyền trên trang này!'); 
+ 
+ 
+window.location='dangkyQT.php'; 
+ 
+ 
+</script>"; 
+ 
+} 
+?> 
+<!DOCTYPE 
+html 
+PUBLIC 
+"-//W3C//DTD 
+XHTML 
+1.0 
+Transitional//EN" 
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml"> 
+<head> 
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+<title>Untitled Document</title> 
+</head> 
+ 
+<body> 
+<?php 
+include("ketnoi.php");// chèn file kết nối (bắt buộc) 
+//Nhận dữ liệu từ file sua.php, trong $_POST[""] là name của các thành phần form trong file sua.php 
+$tdn=$_POST["tendn"]; 
+$mk=$_POST["matkhau"]; 
+$ht=$_POST["hoten"]; 
+$gt=$_POST["gioitinh"]; 
+$qg=$_POST["quocgia"]; 
+ 
+//kiểm tra người dùng có chọn vào ảnh mới hay không, nếu có thì thực hiện khối lệnh trong if, ngược lại 
+(người dùng không muốn thay đổi ảnh đại diện) thì thực hiện khối lệnh trong else 
+if($_FILES["hinh"]["name"]!="") 
+{ 
+ 
+$duongdan="HINHANH/"; /*lưu ý: thư mục này phải được tạo trước trong thư mục chứa bài tập 
+này*/ 
+
+
+--- Trang 12 ---
+ 
+$duongdan=$duongdan.basename($_FILES["hinh"]["name"]); /*đường dẫn đến file cần up lên, 
+cái này dùng để lưu vào csdl*/ 
+ 
+$file_tam=$_FILES["hinh"]["tmp_name"];/*muốn đưa file từ máy người dùng lên server phải 
+thông qua file tạm này*/ 
+ 
+move_uploaded_file($file_tam,$duongdan);//di chuyển file tạm lên máy chủ 
+ 
+//Câu lệnh sửa  
+ 
+$sql_1="update 
+nguoi_dung 
+set 
+password='".$mk."', 
+hoten='".$ht."', 
+gioitinh=".$gt.", 
+quocgia='".$qg."', hinhdaidien='".$duongdan."' where username='".$tdn."'"; 
+ 
+$kq_1=mysql_query($sql_1,$kn) or die ("Không thể xuất thông tin người dùng ".mysql_error()); 
+ 
+echo ("<script language=javascript> 
+ 
+ 
+alert('Sửa thành công 1'); 
+ 
+ 
+window.location='quantri.php'; 
+ 
+ 
+</script> 
+ 
+ 
+"); 
+} 
+else 
+{ 
+ 
+ 
+ 
+ 
+$hc=$_POST["hinhcu"]; 
+ 
+ 
+$sql="update nguoi_dung set password='".$mk."', hoten='".$ht."', gioitinh=".$gt.", 
+quocgia='".$qg."', hinhdaidien='".$hc."' where username='".$tdn."'"; 
+ 
+$kq=mysql_query($sql,$kn) or die ("Không thể xuất thông tin người dùng ".mysql_error()); 
+ 
+echo ("<script language=javascript> 
+ 
+ 
+alert('Sửa thành công '); 
+ 
+ 
+window.location='quantri.php'; 
+ 
+ 
+</script> 
+ 
+ 
+"); 
+} 
+?> 
+ 
+ 
+</table> 
+</body> 
+</html> 
+Bài 14: trang xoa.php dùng để thực hiện xóa 1 người dùng nào đó 
+<?php session_start(); 
+if(!isset($_SESSION["nguoiquantri"])) 
+ 
+{ 
+ 
+echo "<script language=javascript> 
+ 
+ 
+alert('Bạn không có quyền trên trang này!'); 
+ 
+ 
+window.location='dangkyQT.php'; 
+ 
+ 
+</script>"; 
+ 
+} 
+?> 
+<!DOCTYPE 
+html 
+PUBLIC 
+"-//W3C//DTD 
+XHTML 
+1.0 
+Transitional//EN" 
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml"> 
+<head> 
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+<title>Untitled Document</title> 
+</head> 
+ 
+<body> 
+
+
+--- Trang 13 ---
+<?php 
+include("ketnoi.php"); 
+$user_xoa=$_REQUEST["user"]; //Nhận giá trị user từ link xóa của quantri.php  
+$sql="delete from nguoi_dung where username='".$user_xoa."'"; 
+$kq=mysql_query($sql,$kn) or die ("Không thể xuất thông tin người dùng ".mysql_error()); 
+echo ("<script language=javascript> 
+{ 
+alert('Xóa thành công'); 
+window.location='quantri.php'; 
+} 
+</script> 
+"); 
+?> 
+ 
+ 
+</table> 
+</body> 
+</html> 
+Bài 15: trang thoatQT.php dùng để thoát tài khoản quản trị 
+<!DOCTYPE 
+html 
+PUBLIC 
+"-//W3C//DTD 
+XHTML 
+1.0 
+Transitional//EN" 
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml"> 
+<head> 
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+<title>Untitled Document</title> 
+</head> 
+ 
+<body> 
+<?php 
+session_start(); 
+session_destroy(); 
+echo "<script language=javascript> 
+ 
+alert ('Bạn đã thoát ra khỏi hệ thống quản trị'); 
+ 
+window.location='dangnhapQT.php'; 
+ 
+</script> 
+ 
+"; 
+?> 
+</body> 
+</html> 
+ 
+Hãy chỉnh sửa thêm để hoàn chỉnh hơn!!! 
