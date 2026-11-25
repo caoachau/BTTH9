@@ -1,0 +1,661 @@
+<br />
+<b>Deprecated</b>:  Assert\that(): Implicitly marking parameter $defaultPropertyPath as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\beberlei\assert\lib\Assert\functions.php</b> on line <b>35</b><br />
+<br />
+<b>Deprecated</b>:  Assert\thatAll(): Implicitly marking parameter $defaultPropertyPath as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\beberlei\assert\lib\Assert\functions.php</b> on line <b>47</b><br />
+<br />
+<b>Deprecated</b>:  Assert\thatNullOr(): Implicitly marking parameter $defaultPropertyPath as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\beberlei\assert\lib\Assert\functions.php</b> on line <b>61</b><br />
+<br />
+<b>Deprecated</b>:  Safe\mssql_connect(): Implicitly marking parameter $servername as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\deprecated\mssql.php</b> on line <b>100</b><br />
+<br />
+<b>Deprecated</b>:  Safe\mssql_connect(): Implicitly marking parameter $username as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\deprecated\mssql.php</b> on line <b>100</b><br />
+<br />
+<b>Deprecated</b>:  Safe\mssql_connect(): Implicitly marking parameter $password as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\deprecated\mssql.php</b> on line <b>100</b><br />
+<br />
+<b>Deprecated</b>:  Safe\mssql_pconnect(): Implicitly marking parameter $servername as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\deprecated\mssql.php</b> on line <b>333</b><br />
+<br />
+<b>Deprecated</b>:  Safe\mssql_pconnect(): Implicitly marking parameter $username as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\deprecated\mssql.php</b> on line <b>333</b><br />
+<br />
+<b>Deprecated</b>:  Safe\mssql_pconnect(): Implicitly marking parameter $password as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\deprecated\mssql.php</b> on line <b>333</b><br />
+<br />
+<b>Deprecated</b>:  Safe\preg_replace(): Implicitly marking parameter $count as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\lib\special_cases.php</b> on line <b>155</b><br />
+<br />
+<b>Deprecated</b>:  Safe\bzwrite(): Implicitly marking parameter $length as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\bzip2.php</b> on line <b>84</b><br />
+<br />
+<b>Deprecated</b>:  Safe\com_print_typeinfo(): Implicitly marking parameter $dispinterface as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\com.php</b> on line <b>120</b><br />
+<br />
+<b>Deprecated</b>:  Safe\curl_getinfo(): Implicitly marking parameter $opt as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\curl.php</b> on line <b>515</b><br />
+<br />
+<b>Deprecated</b>:  Safe\curl_init(): Implicitly marking parameter $url as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\curl.php</b> on line <b>545</b><br />
+<br />
+<b>Deprecated</b>:  Safe\date_sunrise(): Implicitly marking parameter $latitude as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\datetime.php</b> on line <b>236</b><br />
+<br />
+<b>Deprecated</b>:  Safe\date_sunrise(): Implicitly marking parameter $longitude as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\datetime.php</b> on line <b>236</b><br />
+<br />
+<b>Deprecated</b>:  Safe\date_sunrise(): Implicitly marking parameter $zenith as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\datetime.php</b> on line <b>236</b><br />
+<br />
+<b>Deprecated</b>:  Safe\date_sunset(): Implicitly marking parameter $latitude as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\datetime.php</b> on line <b>339</b><br />
+<br />
+<b>Deprecated</b>:  Safe\date_sunset(): Implicitly marking parameter $longitude as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\datetime.php</b> on line <b>339</b><br />
+<br />
+<b>Deprecated</b>:  Safe\date_sunset(): Implicitly marking parameter $zenith as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\datetime.php</b> on line <b>339</b><br />
+<br />
+<b>Deprecated</b>:  Safe\date(): Implicitly marking parameter $timestamp as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\datetime.php</b> on line <b>377</b><br />
+<br />
+<b>Deprecated</b>:  Safe\gmdate(): Implicitly marking parameter $timestamp as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\datetime.php</b> on line <b>408</b><br />
+<br />
+<b>Deprecated</b>:  Safe\mktime(): Implicitly marking parameter $hour as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\datetime.php</b> on line <b>464</b><br />
+<br />
+<b>Deprecated</b>:  Safe\mktime(): Implicitly marking parameter $minute as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\datetime.php</b> on line <b>464</b><br />
+<br />
+<b>Deprecated</b>:  Safe\mktime(): Implicitly marking parameter $second as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\datetime.php</b> on line <b>464</b><br />
+<br />
+<b>Deprecated</b>:  Safe\mktime(): Implicitly marking parameter $month as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\datetime.php</b> on line <b>464</b><br />
+<br />
+<b>Deprecated</b>:  Safe\mktime(): Implicitly marking parameter $day as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\datetime.php</b> on line <b>464</b><br />
+<br />
+<b>Deprecated</b>:  Safe\mktime(): Implicitly marking parameter $year as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\datetime.php</b> on line <b>464</b><br />
+<br />
+<b>Deprecated</b>:  Safe\strtotime(): Implicitly marking parameter $now as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\datetime.php</b> on line <b>587</b><br />
+<br />
+<b>Deprecated</b>:  Safe\eio_busy(): Implicitly marking parameter $callback as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\eio.php</b> on line <b>22</b><br />
+<br />
+<b>Deprecated</b>:  Safe\eio_chmod(): Implicitly marking parameter $callback as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\eio.php</b> on line <b>74</b><br />
+<br />
+<b>Deprecated</b>:  Safe\eio_chown(): Implicitly marking parameter $callback as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\eio.php</b> on line <b>126</b><br />
+<br />
+<b>Deprecated</b>:  Safe\eio_close(): Implicitly marking parameter $callback as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\eio.php</b> on line <b>175</b><br />
+<br />
+<b>Deprecated</b>:  Safe\eio_dup2(): Implicitly marking parameter $callback as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\eio.php</b> on line <b>283</b><br />
+<br />
+<b>Deprecated</b>:  Safe\eio_fallocate(): Implicitly marking parameter $callback as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\eio.php</b> on line <b>355</b><br />
+<br />
+<b>Deprecated</b>:  Safe\eio_fchmod(): Implicitly marking parameter $callback as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\eio.php</b> on line <b>405</b><br />
+<br />
+<b>Deprecated</b>:  Safe\eio_fdatasync(): Implicitly marking parameter $callback as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\eio.php</b> on line <b>453</b><br />
+<br />
+<b>Deprecated</b>:  Safe\eio_fsync(): Implicitly marking parameter $callback as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\eio.php</b> on line <b>607</b><br />
+<br />
+<b>Deprecated</b>:  Safe\eio_ftruncate(): Implicitly marking parameter $callback as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\eio.php</b> on line <b>658</b><br />
+<br />
+<b>Deprecated</b>:  Safe\eio_futime(): Implicitly marking parameter $callback as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\eio.php</b> on line <b>709</b><br />
+<br />
+<b>Deprecated</b>:  Safe\eio_grp(): Implicitly marking parameter $data as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\eio.php</b> on line <b>753</b><br />
+<br />
+<b>Deprecated</b>:  Safe\eio_mkdir(): Implicitly marking parameter $callback as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\eio.php</b> on line <b>852</b><br />
+<br />
+<b>Deprecated</b>:  Safe\eio_mknod(): Implicitly marking parameter $callback as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\eio.php</b> on line <b>917</b><br />
+<br />
+<b>Deprecated</b>:  Safe\eio_nop(): Implicitly marking parameter $callback as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\eio.php</b> on line <b>965</b><br />
+<br />
+<b>Deprecated</b>:  Safe\eio_readahead(): Implicitly marking parameter $callback as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\eio.php</b> on line <b>1016</b><br />
+<br />
+<b>Deprecated</b>:  Safe\eio_readdir(): Implicitly marking parameter $data as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\eio.php</b> on line <b>1319</b><br />
+<br />
+<b>Deprecated</b>:  Safe\eio_readlink(): Implicitly marking parameter $data as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\eio.php</b> on line <b>1367</b><br />
+<br />
+<b>Deprecated</b>:  Safe\eio_rename(): Implicitly marking parameter $callback as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\eio.php</b> on line <b>1416</b><br />
+<br />
+<b>Deprecated</b>:  Safe\eio_rmdir(): Implicitly marking parameter $callback as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\eio.php</b> on line <b>1464</b><br />
+<br />
+<b>Deprecated</b>:  Safe\eio_seek(): Implicitly marking parameter $callback as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\eio.php</b> on line <b>1520</b><br />
+<br />
+<b>Deprecated</b>:  Safe\eio_sendfile(): Implicitly marking parameter $pri as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\eio.php</b> on line <b>1572</b><br />
+<br />
+<b>Deprecated</b>:  Safe\eio_sendfile(): Implicitly marking parameter $callback as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\eio.php</b> on line <b>1572</b><br />
+<br />
+<b>Deprecated</b>:  Safe\eio_sendfile(): Implicitly marking parameter $data as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\eio.php</b> on line <b>1572</b><br />
+<br />
+<b>Deprecated</b>:  Safe\eio_symlink(): Implicitly marking parameter $callback as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\eio.php</b> on line <b>1734</b><br />
+<br />
+<b>Deprecated</b>:  Safe\eio_sync_file_range(): Implicitly marking parameter $callback as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\eio.php</b> on line <b>1793</b><br />
+<br />
+<b>Deprecated</b>:  Safe\eio_sync(): Implicitly marking parameter $callback as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\eio.php</b> on line <b>1814</b><br />
+<br />
+<b>Deprecated</b>:  Safe\eio_syncfs(): Implicitly marking parameter $callback as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\eio.php</b> on line <b>1862</b><br />
+<br />
+<b>Deprecated</b>:  Safe\eio_truncate(): Implicitly marking parameter $callback as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\eio.php</b> on line <b>1912</b><br />
+<br />
+<b>Deprecated</b>:  Safe\eio_unlink(): Implicitly marking parameter $callback as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\eio.php</b> on line <b>1960</b><br />
+<br />
+<b>Deprecated</b>:  Safe\eio_utime(): Implicitly marking parameter $callback as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\eio.php</b> on line <b>2010</b><br />
+<br />
+<b>Deprecated</b>:  Safe\eio_write(): Implicitly marking parameter $callback as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\eio.php</b> on line <b>2063</b><br />
+<br />
+<b>Deprecated</b>:  Safe\error_log(): Implicitly marking parameter $destination as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\errorfunc.php</b> on line <b>69</b><br />
+<br />
+<b>Deprecated</b>:  Safe\error_log(): Implicitly marking parameter $extra_headers as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\errorfunc.php</b> on line <b>69</b><br />
+<br />
+<b>Deprecated</b>:  Safe\system(): Implicitly marking parameter $return_var as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\exec.php</b> on line <b>151</b><br />
+<br />
+<b>Deprecated</b>:  Safe\file_get_contents(): Implicitly marking parameter $maxlen as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\filesystem.php</b> on line <b>240</b><br />
+<br />
+<b>Deprecated</b>:  Safe\fwrite(): Implicitly marking parameter $length as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\filesystem.php</b> on line <b>925</b><br />
+<br />
+<b>Deprecated</b>:  Safe\touch(): Implicitly marking parameter $time as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\filesystem.php</b> on line <b>1451</b><br />
+<br />
+<b>Deprecated</b>:  Safe\touch(): Implicitly marking parameter $atime as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\filesystem.php</b> on line <b>1451</b><br />
+<br />
+<b>Deprecated</b>:  Safe\ftp_alloc(): Implicitly marking parameter $result as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\ftp.php</b> on line <b>18</b><br />
+<br />
+<b>Deprecated</b>:  Safe\gnupg_addsignkey(): Implicitly marking parameter $passphrase as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\gnupg.php</b> on line <b>56</b><br />
+<br />
+<b>Deprecated</b>:  Safe\ibase_add_user(): Implicitly marking parameter $first_name as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\ibase.php</b> on line <b>37</b><br />
+<br />
+<b>Deprecated</b>:  Safe\ibase_add_user(): Implicitly marking parameter $middle_name as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\ibase.php</b> on line <b>37</b><br />
+<br />
+<b>Deprecated</b>:  Safe\ibase_add_user(): Implicitly marking parameter $last_name as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\ibase.php</b> on line <b>37</b><br />
+<br />
+<b>Deprecated</b>:  Safe\ibase_connect(): Implicitly marking parameter $database as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\ibase.php</b> on line <b>253</b><br />
+<br />
+<b>Deprecated</b>:  Safe\ibase_connect(): Implicitly marking parameter $username as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\ibase.php</b> on line <b>253</b><br />
+<br />
+<b>Deprecated</b>:  Safe\ibase_connect(): Implicitly marking parameter $password as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\ibase.php</b> on line <b>253</b><br />
+<br />
+<b>Deprecated</b>:  Safe\ibase_connect(): Implicitly marking parameter $charset as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\ibase.php</b> on line <b>253</b><br />
+<br />
+<b>Deprecated</b>:  Safe\ibase_connect(): Implicitly marking parameter $buffers as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\ibase.php</b> on line <b>253</b><br />
+<br />
+<b>Deprecated</b>:  Safe\ibase_connect(): Implicitly marking parameter $dialect as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\ibase.php</b> on line <b>253</b><br />
+<br />
+<b>Deprecated</b>:  Safe\ibase_connect(): Implicitly marking parameter $role as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\ibase.php</b> on line <b>253</b><br />
+<br />
+<b>Deprecated</b>:  Safe\ibase_connect(): Implicitly marking parameter $sync as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\ibase.php</b> on line <b>253</b><br />
+<br />
+<b>Deprecated</b>:  Safe\ibase_modify_user(): Implicitly marking parameter $first_name as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\ibase.php</b> on line <b>406</b><br />
+<br />
+<b>Deprecated</b>:  Safe\ibase_modify_user(): Implicitly marking parameter $middle_name as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\ibase.php</b> on line <b>406</b><br />
+<br />
+<b>Deprecated</b>:  Safe\ibase_modify_user(): Implicitly marking parameter $last_name as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\ibase.php</b> on line <b>406</b><br />
+<br />
+<b>Deprecated</b>:  Safe\ibase_pconnect(): Implicitly marking parameter $database as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\ibase.php</b> on line <b>483</b><br />
+<br />
+<b>Deprecated</b>:  Safe\ibase_pconnect(): Implicitly marking parameter $username as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\ibase.php</b> on line <b>483</b><br />
+<br />
+<b>Deprecated</b>:  Safe\ibase_pconnect(): Implicitly marking parameter $password as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\ibase.php</b> on line <b>483</b><br />
+<br />
+<b>Deprecated</b>:  Safe\ibase_pconnect(): Implicitly marking parameter $charset as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\ibase.php</b> on line <b>483</b><br />
+<br />
+<b>Deprecated</b>:  Safe\ibase_pconnect(): Implicitly marking parameter $buffers as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\ibase.php</b> on line <b>483</b><br />
+<br />
+<b>Deprecated</b>:  Safe\ibase_pconnect(): Implicitly marking parameter $dialect as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\ibase.php</b> on line <b>483</b><br />
+<br />
+<b>Deprecated</b>:  Safe\ibase_pconnect(): Implicitly marking parameter $role as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\ibase.php</b> on line <b>483</b><br />
+<br />
+<b>Deprecated</b>:  Safe\ibase_pconnect(): Implicitly marking parameter $sync as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\ibase.php</b> on line <b>483</b><br />
+<br />
+<b>Deprecated</b>:  Safe\db2_autocommit(): Implicitly marking parameter $value as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\ibmDb2.php</b> on line <b>49</b><br />
+<br />
+<b>Deprecated</b>:  Safe\db2_bind_param(): Implicitly marking parameter $parameter_type as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\ibmDb2.php</b> on line <b>99</b><br />
+<br />
+<b>Deprecated</b>:  Safe\db2_execute(): Implicitly marking parameter $parameters as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\ibmDb2.php</b> on line <b>307</b><br />
+<br />
+<b>Deprecated</b>:  Safe\getimagesize(): Implicitly marking parameter $imageinfo as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\image.php</b> on line <b>69</b><br />
+<br />
+<b>Deprecated</b>:  Safe\image2wbmp(): Implicitly marking parameter $foreground as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\image.php</b> on line <b>94</b><br />
+<br />
+<b>Deprecated</b>:  Safe\imageaffine(): Implicitly marking parameter $clip as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\image.php</b> on line <b>121</b><br />
+<br />
+<b>Deprecated</b>:  Safe\imagefilter(): Implicitly marking parameter $arg1 as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\image.php</b> on line <b>1370</b><br />
+<br />
+<b>Deprecated</b>:  Safe\imagefilter(): Implicitly marking parameter $arg2 as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\image.php</b> on line <b>1370</b><br />
+<br />
+<b>Deprecated</b>:  Safe\imagefilter(): Implicitly marking parameter $arg3 as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\image.php</b> on line <b>1370</b><br />
+<br />
+<b>Deprecated</b>:  Safe\imagefilter(): Implicitly marking parameter $arg4 as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\image.php</b> on line <b>1370</b><br />
+<br />
+<b>Deprecated</b>:  Safe\imagewbmp(): Implicitly marking parameter $foreground as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\image.php</b> on line <b>2554</b><br />
+<br />
+<b>Deprecated</b>:  Safe\imagexbm(): Implicitly marking parameter $foreground as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\image.php</b> on line <b>2609</b><br />
+<br />
+<b>Deprecated</b>:  Safe\imap_append(): Implicitly marking parameter $options as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\imap.php</b> on line <b>25</b><br />
+<br />
+<b>Deprecated</b>:  Safe\imap_append(): Implicitly marking parameter $internal_date as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\imap.php</b> on line <b>25</b><br />
+<br />
+<b>Deprecated</b>:  Safe\imap_headerinfo(): Implicitly marking parameter $defaulthost as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\imap.php</b> on line <b>570</b><br />
+<br />
+<b>Deprecated</b>:  Safe\imap_mail(): Implicitly marking parameter $additional_headers as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\imap.php</b> on line <b>787</b><br />
+<br />
+<b>Deprecated</b>:  Safe\imap_mail(): Implicitly marking parameter $cc as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\imap.php</b> on line <b>787</b><br />
+<br />
+<b>Deprecated</b>:  Safe\imap_mail(): Implicitly marking parameter $bcc as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\imap.php</b> on line <b>787</b><br />
+<br />
+<b>Deprecated</b>:  Safe\imap_mail(): Implicitly marking parameter $rpath as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\imap.php</b> on line <b>787</b><br />
+<br />
+<b>Deprecated</b>:  Safe\imap_sort(): Implicitly marking parameter $search_criteria as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\imap.php</b> on line <b>1328</b><br />
+<br />
+<b>Deprecated</b>:  Safe\imap_sort(): Implicitly marking parameter $charset as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\imap.php</b> on line <b>1328</b><br />
+<br />
+<b>Deprecated</b>:  Safe\getopt(): Implicitly marking parameter $longopts as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\info.php</b> on line <b>195</b><br />
+<br />
+<b>Deprecated</b>:  Safe\ingres_connect(): Implicitly marking parameter $database as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\ingres-ii.php</b> on line <b>335</b><br />
+<br />
+<b>Deprecated</b>:  Safe\ingres_connect(): Implicitly marking parameter $username as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\ingres-ii.php</b> on line <b>335</b><br />
+<br />
+<b>Deprecated</b>:  Safe\ingres_connect(): Implicitly marking parameter $password as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\ingres-ii.php</b> on line <b>335</b><br />
+<br />
+<b>Deprecated</b>:  Safe\ingres_connect(): Implicitly marking parameter $options as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\ingres-ii.php</b> on line <b>335</b><br />
+<br />
+<b>Deprecated</b>:  Safe\ingres_execute(): Implicitly marking parameter $params as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\ingres-ii.php</b> on line <b>367</b><br />
+<br />
+<b>Deprecated</b>:  Safe\ingres_execute(): Implicitly marking parameter $types as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\ingres-ii.php</b> on line <b>367</b><br />
+<br />
+<b>Deprecated</b>:  Safe\ingres_pconnect(): Implicitly marking parameter $database as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\ingres-ii.php</b> on line <b>506</b><br />
+<br />
+<b>Deprecated</b>:  Safe\ingres_pconnect(): Implicitly marking parameter $username as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\ingres-ii.php</b> on line <b>506</b><br />
+<br />
+<b>Deprecated</b>:  Safe\ingres_pconnect(): Implicitly marking parameter $password as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\ingres-ii.php</b> on line <b>506</b><br />
+<br />
+<b>Deprecated</b>:  Safe\ingres_pconnect(): Implicitly marking parameter $options as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\ingres-ii.php</b> on line <b>506</b><br />
+<br />
+<b>Deprecated</b>:  Safe\ldap_add_ext(): Implicitly marking parameter $serverctrls as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\ldap.php</b> on line <b>18</b><br />
+<br />
+<b>Deprecated</b>:  Safe\ldap_add(): Implicitly marking parameter $serverctrls as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\ldap.php</b> on line <b>48</b><br />
+<br />
+<b>Deprecated</b>:  Safe\ldap_bind_ext(): Implicitly marking parameter $serverctrls as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\ldap.php</b> on line <b>69</b><br />
+<br />
+<b>Deprecated</b>:  Safe\ldap_delete_ext(): Implicitly marking parameter $serverctrls as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\ldap.php</b> on line <b>173</b><br />
+<br />
+<b>Deprecated</b>:  Safe\ldap_delete(): Implicitly marking parameter $serverctrls as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\ldap.php</b> on line <b>193</b><br />
+<br />
+<b>Deprecated</b>:  Safe\ldap_exop_passwd(): Implicitly marking parameter $serverctrls as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\ldap.php</b> on line <b>218</b><br />
+<br />
+<b>Deprecated</b>:  Safe\ldap_exop(): Implicitly marking parameter $reqdata as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\ldap.php</b> on line <b>266</b><br />
+<br />
+<b>Deprecated</b>:  Safe\ldap_list(): Implicitly marking parameter $attributes as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\ldap.php</b> on line <b>801</b><br />
+<br />
+<b>Deprecated</b>:  Safe\ldap_list(): Implicitly marking parameter $serverctrls as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\ldap.php</b> on line <b>801</b><br />
+<br />
+<b>Deprecated</b>:  Safe\ldap_mod_add_ext(): Implicitly marking parameter $serverctrls as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\ldap.php</b> on line <b>837</b><br />
+<br />
+<b>Deprecated</b>:  Safe\ldap_mod_add(): Implicitly marking parameter $serverctrls as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\ldap.php</b> on line <b>859</b><br />
+<br />
+<b>Deprecated</b>:  Safe\ldap_mod_del_ext(): Implicitly marking parameter $serverctrls as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\ldap.php</b> on line <b>880</b><br />
+<br />
+<b>Deprecated</b>:  Safe\ldap_mod_del(): Implicitly marking parameter $serverctrls as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\ldap.php</b> on line <b>903</b><br />
+<br />
+<b>Deprecated</b>:  Safe\ldap_mod_replace_ext(): Implicitly marking parameter $serverctrls as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\ldap.php</b> on line <b>924</b><br />
+<br />
+<b>Deprecated</b>:  Safe\ldap_mod_replace(): Implicitly marking parameter $serverctrls as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\ldap.php</b> on line <b>946</b><br />
+<br />
+<b>Deprecated</b>:  Safe\ldap_modify_batch(): Implicitly marking parameter $serverctrls as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\ldap.php</b> on line <b>1041</b><br />
+<br />
+<b>Deprecated</b>:  Safe\ldap_read(): Implicitly marking parameter $attributes as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\ldap.php</b> on line <b>1196</b><br />
+<br />
+<b>Deprecated</b>:  Safe\ldap_read(): Implicitly marking parameter $serverctrls as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\ldap.php</b> on line <b>1196</b><br />
+<br />
+<b>Deprecated</b>:  Safe\ldap_rename_ext(): Implicitly marking parameter $serverctrls as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\ldap.php</b> on line <b>1234</b><br />
+<br />
+<b>Deprecated</b>:  Safe\ldap_rename(): Implicitly marking parameter $serverctrls as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\ldap.php</b> on line <b>1258</b><br />
+<br />
+<b>Deprecated</b>:  Safe\ldap_sasl_bind(): Implicitly marking parameter $binddn as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\ldap.php</b> on line <b>1282</b><br />
+<br />
+<b>Deprecated</b>:  Safe\ldap_sasl_bind(): Implicitly marking parameter $password as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\ldap.php</b> on line <b>1282</b><br />
+<br />
+<b>Deprecated</b>:  Safe\ldap_sasl_bind(): Implicitly marking parameter $sasl_mech as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\ldap.php</b> on line <b>1282</b><br />
+<br />
+<b>Deprecated</b>:  Safe\ldap_sasl_bind(): Implicitly marking parameter $sasl_realm as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\ldap.php</b> on line <b>1282</b><br />
+<br />
+<b>Deprecated</b>:  Safe\ldap_sasl_bind(): Implicitly marking parameter $sasl_authc_id as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\ldap.php</b> on line <b>1282</b><br />
+<br />
+<b>Deprecated</b>:  Safe\ldap_sasl_bind(): Implicitly marking parameter $sasl_authz_id as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\ldap.php</b> on line <b>1282</b><br />
+<br />
+<b>Deprecated</b>:  Safe\ldap_sasl_bind(): Implicitly marking parameter $props as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\ldap.php</b> on line <b>1282</b><br />
+<br />
+<b>Deprecated</b>:  Safe\ldap_search(): Implicitly marking parameter $attributes as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\ldap.php</b> on line <b>1378</b><br />
+<br />
+<b>Deprecated</b>:  Safe\ldap_search(): Implicitly marking parameter $serverctrls as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\ldap.php</b> on line <b>1378</b><br />
+<br />
+<b>Deprecated</b>:  Safe\mailparse_msg_extract_part_file(): Implicitly marking parameter $callbackfunc as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\mailparse.php</b> on line <b>29</b><br />
+<br />
+<b>Deprecated</b>:  Safe\mb_chr(): Implicitly marking parameter $encoding as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\mbstring.php</b> on line <b>16</b><br />
+<br />
+<b>Deprecated</b>:  Safe\mb_ereg_search_init(): Implicitly marking parameter $pattern as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\mbstring.php</b> on line <b>193</b><br />
+<br />
+<b>Deprecated</b>:  Safe\mb_ereg_search_regs(): Implicitly marking parameter $pattern as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\mbstring.php</b> on line <b>218</b><br />
+<br />
+<b>Deprecated</b>:  Safe\mb_http_output(): Implicitly marking parameter $encoding as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\mbstring.php</b> on line <b>292</b><br />
+<br />
+<b>Deprecated</b>:  Safe\mb_internal_encoding(): Implicitly marking parameter $encoding as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\mbstring.php</b> on line <b>323</b><br />
+<br />
+<b>Deprecated</b>:  Safe\mb_ord(): Implicitly marking parameter $encoding as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\mbstring.php</b> on line <b>347</b><br />
+<br />
+<b>Deprecated</b>:  Safe\mb_regex_encoding(): Implicitly marking parameter $encoding as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\mbstring.php</b> on line <b>395</b><br />
+<br />
+<b>Deprecated</b>:  Safe\mb_send_mail(): Implicitly marking parameter $additional_parameter as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\mbstring.php</b> on line <b>467</b><br />
+<br />
+<b>Deprecated</b>:  Safe\mb_str_split(): Implicitly marking parameter $encoding as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\mbstring.php</b> on line <b>514</b><br />
+<br />
+<b>Deprecated</b>:  Safe\sapi_windows_vt100_support(): Implicitly marking parameter $enable as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\misc.php</b> on line <b>342</b><br />
+<br />
+<b>Deprecated</b>:  Safe\msql_connect(): Implicitly marking parameter $hostname as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\msql.php</b> on line <b>84</b><br />
+<br />
+<b>Deprecated</b>:  Safe\msql_pconnect(): Implicitly marking parameter $hostname as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\msql.php</b> on line <b>372</b><br />
+<br />
+<b>Deprecated</b>:  Safe\mysql_connect(): Implicitly marking parameter $server as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\mysql.php</b> on line <b>76</b><br />
+<br />
+<b>Deprecated</b>:  Safe\mysql_connect(): Implicitly marking parameter $username as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\mysql.php</b> on line <b>76</b><br />
+<br />
+<b>Deprecated</b>:  Safe\mysql_connect(): Implicitly marking parameter $password as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\mysql.php</b> on line <b>76</b><br />
+<br />
+<b>Deprecated</b>:  Safe\fsockopen(): Implicitly marking parameter $timeout as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\network.php</b> on line <b>307</b><br />
+<br />
+<b>Deprecated</b>:  Safe\oci_connect(): Implicitly marking parameter $connection_string as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\oci8.php</b> on line <b>492</b><br />
+<br />
+<b>Deprecated</b>:  Safe\oci_connect(): Implicitly marking parameter $character_set as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\oci8.php</b> on line <b>492</b><br />
+<br />
+<b>Deprecated</b>:  Safe\oci_connect(): Implicitly marking parameter $session_mode as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\oci8.php</b> on line <b>492</b><br />
+<br />
+<b>Deprecated</b>:  Safe\oci_new_collection(): Implicitly marking parameter $schema as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\oci8.php</b> on line <b>915</b><br />
+<br />
+<b>Deprecated</b>:  Safe\oci_new_connect(): Implicitly marking parameter $connection_string as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\oci8.php</b> on line <b>1014</b><br />
+<br />
+<b>Deprecated</b>:  Safe\oci_new_connect(): Implicitly marking parameter $character_set as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\oci8.php</b> on line <b>1014</b><br />
+<br />
+<b>Deprecated</b>:  Safe\oci_new_connect(): Implicitly marking parameter $session_mode as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\oci8.php</b> on line <b>1014</b><br />
+<br />
+<b>Deprecated</b>:  Safe\oci_pconnect(): Implicitly marking parameter $connection_string as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\oci8.php</b> on line <b>1235</b><br />
+<br />
+<b>Deprecated</b>:  Safe\oci_pconnect(): Implicitly marking parameter $character_set as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\oci8.php</b> on line <b>1235</b><br />
+<br />
+<b>Deprecated</b>:  Safe\oci_pconnect(): Implicitly marking parameter $session_mode as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\oci8.php</b> on line <b>1235</b><br />
+<br />
+<b>Deprecated</b>:  Safe\openssl_csr_new(): Implicitly marking parameter $configargs as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\openssl.php</b> on line <b>212</b><br />
+<br />
+<b>Deprecated</b>:  Safe\openssl_csr_new(): Implicitly marking parameter $extraattribs as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\openssl.php</b> on line <b>212</b><br />
+<br />
+<b>Deprecated</b>:  Safe\openssl_csr_sign(): Implicitly marking parameter $configargs as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\openssl.php</b> on line <b>253</b><br />
+<br />
+<b>Deprecated</b>:  Safe\openssl_open(): Implicitly marking parameter $iv as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\openssl.php</b> on line <b>363</b><br />
+<br />
+<b>Deprecated</b>:  Safe\openssl_pkcs12_export_to_file(): Implicitly marking parameter $args as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\openssl.php</b> on line <b>436</b><br />
+<br />
+<b>Deprecated</b>:  Safe\openssl_pkcs12_export(): Implicitly marking parameter $args as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\openssl.php</b> on line <b>484</b><br />
+<br />
+<b>Deprecated</b>:  Safe\openssl_pkcs7_sign(): Implicitly marking parameter $extracerts as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\openssl.php</b> on line <b>621</b><br />
+<br />
+<b>Deprecated</b>:  Safe\openssl_pkey_export_to_file(): Implicitly marking parameter $passphrase as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\openssl.php</b> on line <b>651</b><br />
+<br />
+<b>Deprecated</b>:  Safe\openssl_pkey_export_to_file(): Implicitly marking parameter $configargs as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\openssl.php</b> on line <b>651</b><br />
+<br />
+<b>Deprecated</b>:  Safe\openssl_pkey_export(): Implicitly marking parameter $passphrase as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\openssl.php</b> on line <b>682</b><br />
+<br />
+<b>Deprecated</b>:  Safe\openssl_pkey_export(): Implicitly marking parameter $configargs as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\openssl.php</b> on line <b>682</b><br />
+<br />
+<b>Deprecated</b>:  Safe\openssl_pkey_new(): Implicitly marking parameter $configargs as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\openssl.php</b> on line <b>771</b><br />
+<br />
+<b>Deprecated</b>:  Safe\openssl_seal(): Implicitly marking parameter $iv as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\openssl.php</b> on line <b>956</b><br />
+<br />
+<b>Deprecated</b>:  Safe\password_hash(): Implicitly marking parameter $options as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\password.php</b> on line <b>114</b><br />
+<br />
+<b>Deprecated</b>:  Safe\pcntl_exec(): Implicitly marking parameter $args as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\pcntl.php</b> on line <b>23</b><br />
+<br />
+<b>Deprecated</b>:  Safe\pcntl_exec(): Implicitly marking parameter $envs as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\pcntl.php</b> on line <b>23</b><br />
+<br />
+<b>Deprecated</b>:  Safe\pcntl_getpriority(): Implicitly marking parameter $pid as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\pcntl.php</b> on line <b>53</b><br />
+<br />
+<b>Deprecated</b>:  Safe\pcntl_setpriority(): Implicitly marking parameter $pid as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\pcntl.php</b> on line <b>86</b><br />
+<br />
+<b>Deprecated</b>:  Safe\preg_match_all(): Implicitly marking parameter $matches as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\pcre.php</b> on line <b>350</b><br />
+<br />
+<b>Deprecated</b>:  Safe\preg_match(): Implicitly marking parameter $matches as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\pcre.php</b> on line <b>587</b><br />
+<br />
+<b>Deprecated</b>:  Safe\pg_connect(): Implicitly marking parameter $connect_type as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\pgsql.php</b> on line <b>133</b><br />
+<br />
+<b>Deprecated</b>:  Safe\pg_copy_from(): Implicitly marking parameter $delimiter as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\pgsql.php</b> on line <b>216</b><br />
+<br />
+<b>Deprecated</b>:  Safe\pg_copy_from(): Implicitly marking parameter $null_as as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\pgsql.php</b> on line <b>216</b><br />
+<br />
+<b>Deprecated</b>:  Safe\pg_copy_to(): Implicitly marking parameter $delimiter as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\pgsql.php</b> on line <b>248</b><br />
+<br />
+<b>Deprecated</b>:  Safe\pg_copy_to(): Implicitly marking parameter $null_as as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\pgsql.php</b> on line <b>248</b><br />
+<br />
+<b>Deprecated</b>:  Safe\pg_execute(): Implicitly marking parameter $stmtname as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\pgsql.php</b> on line <b>406</b><br />
+<br />
+<b>Deprecated</b>:  Safe\pg_execute(): Implicitly marking parameter $params as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\pgsql.php</b> on line <b>406</b><br />
+<br />
+<b>Deprecated</b>:  Safe\pg_lo_export(): Implicitly marking parameter $oid as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\pgsql.php</b> on line <b>782</b><br />
+<br />
+<b>Deprecated</b>:  Safe\pg_lo_export(): Implicitly marking parameter $pathname as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\pgsql.php</b> on line <b>782</b><br />
+<br />
+<b>Deprecated</b>:  Safe\pg_lo_import(): Implicitly marking parameter $pathname as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\pgsql.php</b> on line <b>823</b><br />
+<br />
+<b>Deprecated</b>:  Safe\pg_lo_write(): Implicitly marking parameter $len as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\pgsql.php</b> on line <b>1012</b><br />
+<br />
+<b>Deprecated</b>:  Safe\pg_parameter_status(): Implicitly marking parameter $param_name as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\pgsql.php</b> on line <b>1116</b><br />
+<br />
+<b>Deprecated</b>:  Safe\pg_pconnect(): Implicitly marking parameter $connect_type as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\pgsql.php</b> on line <b>1177</b><br />
+<br />
+<b>Deprecated</b>:  Safe\pg_prepare(): Implicitly marking parameter $stmtname as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\pgsql.php</b> on line <b>1281</b><br />
+<br />
+<b>Deprecated</b>:  Safe\pg_prepare(): Implicitly marking parameter $query as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\pgsql.php</b> on line <b>1281</b><br />
+<br />
+<b>Deprecated</b>:  Safe\pg_put_line(): Implicitly marking parameter $data as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\pgsql.php</b> on line <b>1322</b><br />
+<br />
+<b>Deprecated</b>:  Safe\pg_query_params(): Implicitly marking parameter $query as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\pgsql.php</b> on line <b>1388</b><br />
+<br />
+<b>Deprecated</b>:  Safe\pg_query_params(): Implicitly marking parameter $params as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\pgsql.php</b> on line <b>1388</b><br />
+<br />
+<b>Deprecated</b>:  Safe\pg_query(): Implicitly marking parameter $query as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\pgsql.php</b> on line <b>1446</b><br />
+<br />
+<b>Deprecated</b>:  Safe\ps_get_parameter(): Implicitly marking parameter $modifier as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\ps.php</b> on line <b>781</b><br />
+<br />
+<b>Deprecated</b>:  Safe\ps_open_file(): Implicitly marking parameter $filename as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\ps.php</b> on line <b>928</b><br />
+<br />
+<b>Deprecated</b>:  Safe\pspell_config_create(): Implicitly marking parameter $spelling as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\pspell.php</b> on line <b>93</b><br />
+<br />
+<b>Deprecated</b>:  Safe\pspell_config_create(): Implicitly marking parameter $jargon as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\pspell.php</b> on line <b>93</b><br />
+<br />
+<b>Deprecated</b>:  Safe\pspell_config_create(): Implicitly marking parameter $encoding as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\pspell.php</b> on line <b>93</b><br />
+<br />
+<b>Deprecated</b>:  Safe\pspell_new(): Implicitly marking parameter $spelling as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\pspell.php</b> on line <b>395</b><br />
+<br />
+<b>Deprecated</b>:  Safe\pspell_new(): Implicitly marking parameter $jargon as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\pspell.php</b> on line <b>395</b><br />
+<br />
+<b>Deprecated</b>:  Safe\pspell_new(): Implicitly marking parameter $encoding as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\pspell.php</b> on line <b>395</b><br />
+<br />
+<b>Deprecated</b>:  Safe\readline_read_history(): Implicitly marking parameter $filename as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\readline.php</b> on line <b>125</b><br />
+<br />
+<b>Deprecated</b>:  Safe\readline_write_history(): Implicitly marking parameter $filename as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\readline.php</b> on line <b>146</b><br />
+<br />
+<b>Deprecated</b>:  Safe\sodium_crypto_pwhash(): Implicitly marking parameter $alg as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\sodium.php</b> on line <b>46</b><br />
+<br />
+<b>Deprecated</b>:  Safe\spl_autoload_register(): Implicitly marking parameter $autoload_function as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\spl.php</b> on line <b>102</b><br />
+<br />
+<b>Deprecated</b>:  Safe\sqlsrv_get_field(): Implicitly marking parameter $getAsType as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\sqlsrv.php</b> on line <b>254</b><br />
+<br />
+<b>Deprecated</b>:  Safe\sqlsrv_prepare(): Implicitly marking parameter $params as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\sqlsrv.php</b> on line <b>360</b><br />
+<br />
+<b>Deprecated</b>:  Safe\sqlsrv_prepare(): Implicitly marking parameter $options as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\sqlsrv.php</b> on line <b>360</b><br />
+<br />
+<b>Deprecated</b>:  Safe\sqlsrv_query(): Implicitly marking parameter $params as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\sqlsrv.php</b> on line <b>397</b><br />
+<br />
+<b>Deprecated</b>:  Safe\sqlsrv_query(): Implicitly marking parameter $options as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\sqlsrv.php</b> on line <b>397</b><br />
+<br />
+<b>Deprecated</b>:  Safe\ssh2_auth_hostbased_file(): Implicitly marking parameter $passphrase as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\ssh2.php</b> on line <b>42</b><br />
+<br />
+<b>Deprecated</b>:  Safe\ssh2_auth_hostbased_file(): Implicitly marking parameter $local_username as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\ssh2.php</b> on line <b>42</b><br />
+<br />
+<b>Deprecated</b>:  Safe\ssh2_auth_pubkey_file(): Implicitly marking parameter $passphrase as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\ssh2.php</b> on line <b>94</b><br />
+<br />
+<b>Deprecated</b>:  Safe\ssh2_connect(): Implicitly marking parameter $methods as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\ssh2.php</b> on line <b>307</b><br />
+<br />
+<b>Deprecated</b>:  Safe\ssh2_connect(): Implicitly marking parameter $callbacks as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\ssh2.php</b> on line <b>307</b><br />
+<br />
+<b>Deprecated</b>:  Safe\ssh2_exec(): Implicitly marking parameter $pty as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\ssh2.php</b> on line <b>360</b><br />
+<br />
+<b>Deprecated</b>:  Safe\ssh2_exec(): Implicitly marking parameter $env as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\ssh2.php</b> on line <b>360</b><br />
+<br />
+<b>Deprecated</b>:  Safe\ssh2_publickey_add(): Implicitly marking parameter $attributes as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\ssh2.php</b> on line <b>398</b><br />
+<br />
+<b>Deprecated</b>:  Safe\stream_filter_append(): Implicitly marking parameter $read_write as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\stream.php</b> on line <b>86</b><br />
+<br />
+<b>Deprecated</b>:  Safe\stream_filter_prepend(): Implicitly marking parameter $read_write as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\stream.php</b> on line <b>135</b><br />
+<br />
+<b>Deprecated</b>:  Safe\stream_socket_accept(): Implicitly marking parameter $timeout as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\stream.php</b> on line <b>334</b><br />
+<br />
+<b>Deprecated</b>:  Safe\stream_socket_client(): Implicitly marking parameter $errno as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\stream.php</b> on line <b>400</b><br />
+<br />
+<b>Deprecated</b>:  Safe\stream_socket_client(): Implicitly marking parameter $errstr as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\stream.php</b> on line <b>400</b><br />
+<br />
+<b>Deprecated</b>:  Safe\stream_socket_client(): Implicitly marking parameter $timeout as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\stream.php</b> on line <b>400</b><br />
+<br />
+<b>Deprecated</b>:  Safe\stream_socket_server(): Implicitly marking parameter $errno as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\stream.php</b> on line <b>495</b><br />
+<br />
+<b>Deprecated</b>:  Safe\stream_socket_server(): Implicitly marking parameter $errstr as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\stream.php</b> on line <b>495</b><br />
+<br />
+<b>Deprecated</b>:  Safe\substr(): Implicitly marking parameter $length as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\strings.php</b> on line <b>532</b><br />
+<br />
+<b>Deprecated</b>:  Safe\swoole_async_write(): Implicitly marking parameter $offset as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\swoole.php</b> on line <b>17</b><br />
+<br />
+<b>Deprecated</b>:  Safe\swoole_async_write(): Implicitly marking parameter $callback as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\swoole.php</b> on line <b>17</b><br />
+<br />
+<b>Deprecated</b>:  Safe\swoole_async_writefile(): Implicitly marking parameter $callback as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\swoole.php</b> on line <b>43</b><br />
+<br />
+<b>Deprecated</b>:  Safe\odbc_columns(): Implicitly marking parameter $catalog as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\uodbc.php</b> on line <b>240</b><br />
+<br />
+<b>Deprecated</b>:  Safe\odbc_columns(): Implicitly marking parameter $schema as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\uodbc.php</b> on line <b>240</b><br />
+<br />
+<b>Deprecated</b>:  Safe\odbc_columns(): Implicitly marking parameter $table_name as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\uodbc.php</b> on line <b>240</b><br />
+<br />
+<b>Deprecated</b>:  Safe\odbc_columns(): Implicitly marking parameter $column_name as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\uodbc.php</b> on line <b>240</b><br />
+<br />
+<b>Deprecated</b>:  Safe\odbc_exec(): Implicitly marking parameter $flags as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\uodbc.php</b> on line <b>317</b><br />
+<br />
+<b>Deprecated</b>:  Safe\odbc_execute(): Implicitly marking parameter $parameters_array as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\uodbc.php</b> on line <b>348</b><br />
+<br />
+<b>Deprecated</b>:  Safe\odbc_fetch_into(): Implicitly marking parameter $rownumber as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\uodbc.php</b> on line <b>376</b><br />
+<br />
+<b>Deprecated</b>:  Safe\odbc_gettypeinfo(): Implicitly marking parameter $data_type as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\uodbc.php</b> on line <b>576</b><br />
+<br />
+<b>Deprecated</b>:  Safe\odbc_result_all(): Implicitly marking parameter $format as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\uodbc.php</b> on line <b>690</b><br />
+<br />
+<b>Deprecated</b>:  Safe\odbc_tables(): Implicitly marking parameter $catalog as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\uodbc.php</b> on line <b>991</b><br />
+<br />
+<b>Deprecated</b>:  Safe\odbc_tables(): Implicitly marking parameter $schema as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\uodbc.php</b> on line <b>991</b><br />
+<br />
+<b>Deprecated</b>:  Safe\odbc_tables(): Implicitly marking parameter $name as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\uodbc.php</b> on line <b>991</b><br />
+<br />
+<b>Deprecated</b>:  Safe\odbc_tables(): Implicitly marking parameter $types as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\uodbc.php</b> on line <b>991</b><br />
+<br />
+<b>Deprecated</b>:  Safe\xdiff_string_patch(): Implicitly marking parameter $flags as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\xdiff.php</b> on line <b>222</b><br />
+<br />
+<b>Deprecated</b>:  Safe\xml_parser_create_ns(): Implicitly marking parameter $encoding as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\xml.php</b> on line <b>25</b><br />
+<br />
+<b>Deprecated</b>:  Safe\xml_parser_create(): Implicitly marking parameter $encoding as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\xml.php</b> on line <b>62</b><br />
+<br />
+<b>Deprecated</b>:  Safe\yaml_parse_file(): Implicitly marking parameter $callbacks as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\yaml.php</b> on line <b>26</b><br />
+<br />
+<b>Deprecated</b>:  Safe\yaml_parse_url(): Implicitly marking parameter $callbacks as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\yaml.php</b> on line <b>59</b><br />
+<br />
+<b>Deprecated</b>:  Safe\yaml_parse(): Implicitly marking parameter $callbacks as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\yaml.php</b> on line <b>89</b><br />
+<br />
+<b>Deprecated</b>:  Safe\yaz_wait(): Implicitly marking parameter $options as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\yaz.php</b> on line <b>430</b><br />
+<br />
+<b>Deprecated</b>:  Safe\zip_entry_open(): Implicitly marking parameter $mode as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\zip.php</b> on line <b>38</b><br />
+<br />
+<b>Deprecated</b>:  Safe\deflate_init(): Implicitly marking parameter $options as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\zlib.php</b> on line <b>118</b><br />
+<br />
+<b>Deprecated</b>:  Safe\gzdecode(): Implicitly marking parameter $length as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\zlib.php</b> on line <b>186</b><br />
+<br />
+<b>Deprecated</b>:  Safe\gzgets(): Implicitly marking parameter $length as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\zlib.php</b> on line <b>279</b><br />
+<br />
+<b>Deprecated</b>:  Safe\gzgetss(): Implicitly marking parameter $allowable_tags as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\zlib.php</b> on line <b>308</b><br />
+<br />
+<b>Deprecated</b>:  Safe\inflate_init(): Implicitly marking parameter $options as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\zlib.php</b> on line <b>553</b><br />
+<br />
+<b>Deprecated</b>:  Safe\zlib_decode(): Implicitly marking parameter $max_decoded_len as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\zlib.php</b> on line <b>599</b><br />
+<br />
+<b>Warning</b>:  Cannot modify header information - headers already sent by (output started at F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\datetime.php:236) in <b>F:\xampp\phpMyAdmin\js\messages.php</b> on line <b>45</b><br />
+<br />
+<b>Warning</b>:  Cannot modify header information - headers already sent by (output started at F:\xampp\phpMyAdmin\vendor\thecodingmachine\safe\generated\datetime.php:236) in <b>F:\xampp\phpMyAdmin\js\messages.php</b> on line <b>48</b><br />
+<br />
+<b>Deprecated</b>:  Slim\Psr7\Stream::__construct(): Implicitly marking parameter $cache as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\slim\psr7\src\Stream.php</b> on line <b>97</b><br />
+<br />
+<b>Deprecated</b>:  Slim\Psr7\Factory\StreamFactory::createStreamFromFile(): Implicitly marking parameter $cache as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\slim\psr7\src\Factory\StreamFactory.php</b> on line <b>51</b><br />
+<br />
+<b>Deprecated</b>:  Slim\Psr7\Factory\StreamFactory::createStreamFromResource(): Implicitly marking parameter $cache as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\slim\psr7\src\Factory\StreamFactory.php</b> on line <b>85</b><br />
+<br />
+<b>Deprecated</b>:  Symfony\Component\DependencyInjection\ContainerBuilder::__construct(): Implicitly marking parameter $parameterBag as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\symfony\dependency-injection\ContainerBuilder.php</b> on line <b>166</b><br />
+<br />
+<b>Deprecated</b>:  Symfony\Component\DependencyInjection\ContainerBuilder::loadFromExtension(): Implicitly marking parameter $values as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\symfony\dependency-injection\ContainerBuilder.php</b> on line <b>443</b><br />
+<br />
+<b>Deprecated</b>:  Symfony\Component\DependencyInjection\ContainerBuilder::doGet(): Implicitly marking parameter $inlineServices as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\symfony\dependency-injection\ContainerBuilder.php</b> on line <b>556</b><br />
+<br />
+<b>Deprecated</b>:  Symfony\Component\DependencyInjection\ContainerBuilder::register(): Implicitly marking parameter $class as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\symfony\dependency-injection\ContainerBuilder.php</b> on line <b>903</b><br />
+<br />
+<b>Deprecated</b>:  Symfony\Component\DependencyInjection\ContainerBuilder::autowire(): Implicitly marking parameter $class as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\symfony\dependency-injection\ContainerBuilder.php</b> on line <b>916</b><br />
+<br />
+<b>Deprecated</b>:  Symfony\Component\DependencyInjection\ContainerBuilder::createService(): Implicitly marking parameter $id as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\symfony\dependency-injection\ContainerBuilder.php</b> on line <b>1040</b><br />
+<br />
+<b>Deprecated</b>:  Symfony\Component\DependencyInjection\ContainerBuilder::registerAliasForArgument(): Implicitly marking parameter $name as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\symfony\dependency-injection\ContainerBuilder.php</b> on line <b>1356</b><br />
+<br />
+<b>Deprecated</b>:  Symfony\Component\DependencyInjection\ContainerBuilder::resolveEnvPlaceholders(): Implicitly marking parameter $usedEnvs as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\symfony\dependency-injection\ContainerBuilder.php</b> on line <b>1396</b><br />
+<br />
+<b>Deprecated</b>:  Symfony\Component\DependencyInjection\Container::__construct(): Implicitly marking parameter $parameterBag as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\symfony\dependency-injection\Container.php</b> on line <b>65</b><br />
+<br />
+<b>Deprecated</b>:  Symfony\Component\DependencyInjection\Argument\ServiceLocator::__construct(): Implicitly marking parameter $serviceTypes as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\symfony\dependency-injection\Argument\ServiceLocator.php</b> on line <b>27</b><br />
+<br />
+<b>Deprecated</b>:  Symfony\Component\DependencyInjection\ServiceLocator::formatAlternatives(): Implicitly marking parameter $alternatives as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\symfony\dependency-injection\ServiceLocator.php</b> on line <b>137</b><br />
+<br />
+<b>Deprecated</b>:  Symfony\Component\DependencyInjection\Definition::__construct(): Implicitly marking parameter $class as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\symfony\dependency-injection\Definition.php</b> on line <b>64</b><br />
+<br />
+<b>Deprecated</b>:  Symfony\Component\DependencyInjection\Definition::setDecoratedService(): Implicitly marking parameter $renamedId as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\symfony\dependency-injection\Definition.php</b> on line <b>138</b><br />
+<br />
+<b>Deprecated</b>:  Symfony\Component\DependencyInjection\Loader\PhpFileLoader::__construct(): Implicitly marking parameter $env as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\symfony\dependency-injection\Loader\PhpFileLoader.php</b> on line <b>39</b><br />
+<br />
+<b>Deprecated</b>:  Symfony\Component\DependencyInjection\Loader\PhpFileLoader::__construct(): Implicitly marking parameter $generator as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\symfony\dependency-injection\Loader\PhpFileLoader.php</b> on line <b>39</b><br />
+<br />
+<b>Deprecated</b>:  Symfony\Component\DependencyInjection\Loader\PhpFileLoader::load(): Implicitly marking parameter $type as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\symfony\dependency-injection\Loader\PhpFileLoader.php</b> on line <b>48</b><br />
+<br />
+<b>Deprecated</b>:  Symfony\Component\DependencyInjection\Loader\PhpFileLoader::supports(): Implicitly marking parameter $type as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\symfony\dependency-injection\Loader\PhpFileLoader.php</b> on line <b>80</b><br />
+<br />
+<b>Deprecated</b>:  Symfony\Component\DependencyInjection\Loader\FileLoader::__construct(): Implicitly marking parameter $env as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\symfony\dependency-injection\Loader\FileLoader.php</b> on line <b>43</b><br />
+<br />
+<b>Deprecated</b>:  Symfony\Component\DependencyInjection\Loader\FileLoader::import(): Implicitly marking parameter $type as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\symfony\dependency-injection\Loader\FileLoader.php</b> on line <b>55</b><br />
+<br />
+<b>Deprecated</b>:  Symfony\Component\DependencyInjection\Loader\FileLoader::import(): Implicitly marking parameter $sourceResource as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\symfony\dependency-injection\Loader\FileLoader.php</b> on line <b>55</b><br />
+<br />
+<b>Deprecated</b>:  Symfony\Component\Config\Loader\FileLoader::__construct(): Implicitly marking parameter $env as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\symfony\config\Loader\FileLoader.php</b> on line <b>34</b><br />
+<br />
+<b>Deprecated</b>:  Symfony\Component\Config\Loader\FileLoader::import(): Implicitly marking parameter $type as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\symfony\config\Loader\FileLoader.php</b> on line <b>73</b><br />
+<br />
+<b>Deprecated</b>:  Symfony\Component\Config\Loader\FileLoader::import(): Implicitly marking parameter $sourceResource as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\symfony\config\Loader\FileLoader.php</b> on line <b>73</b><br />
+<br />
+<b>Deprecated</b>:  Symfony\Component\Config\Loader\FileLoader::doImport(): Implicitly marking parameter $type as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\symfony\config\Loader\FileLoader.php</b> on line <b>136</b><br />
+<br />
+<b>Deprecated</b>:  Symfony\Component\Config\Loader\FileLoader::doImport(): Implicitly marking parameter $sourceResource as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\symfony\config\Loader\FileLoader.php</b> on line <b>136</b><br />
+<br />
+<b>Deprecated</b>:  Symfony\Component\Config\Loader\Loader::__construct(): Implicitly marking parameter $env as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\symfony\config\Loader\Loader.php</b> on line <b>26</b><br />
+<br />
+<b>Deprecated</b>:  Symfony\Component\Config\Loader\Loader::import(): Implicitly marking parameter $type as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\symfony\config\Loader\Loader.php</b> on line <b>55</b><br />
+<br />
+<b>Deprecated</b>:  Symfony\Component\Config\Loader\Loader::resolve(): Implicitly marking parameter $type as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\symfony\config\Loader\Loader.php</b> on line <b>70</b><br />
+<br />
+<b>Deprecated</b>:  Symfony\Component\Config\Loader\LoaderInterface::load(): Implicitly marking parameter $type as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\symfony\config\Loader\LoaderInterface.php</b> on line <b>30</b><br />
+<br />
+<b>Deprecated</b>:  Symfony\Component\Config\Loader\LoaderInterface::supports(): Implicitly marking parameter $type as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\symfony\config\Loader\LoaderInterface.php</b> on line <b>39</b><br />
+<br />
+<b>Deprecated</b>:  Symfony\Component\Config\FileLocator::locate(): Implicitly marking parameter $currentPath as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\symfony\config\FileLocator.php</b> on line <b>36</b><br />
+<br />
+<b>Deprecated</b>:  Symfony\Component\Config\FileLocatorInterface::locate(): Implicitly marking parameter $currentPath as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\symfony\config\FileLocatorInterface.php</b> on line <b>33</b><br />
+<br />
+<b>Deprecated</b>:  Symfony\Component\DependencyInjection\Loader\Configurator\ContainerConfigurator::__construct(): Implicitly marking parameter $env as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\symfony\dependency-injection\Loader\Configurator\ContainerConfigurator.php</b> on line <b>41</b><br />
+<br />
+<b>Deprecated</b>:  Symfony\Component\DependencyInjection\Loader\Configurator\ContainerConfigurator::import(): Implicitly marking parameter $type as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\symfony\dependency-injection\Loader\Configurator\ContainerConfigurator.php</b> on line <b>61</b><br />
+<br />
+<b>Deprecated</b>:  Symfony\Component\DependencyInjection\Loader\Configurator\inline(): Implicitly marking parameter $class as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\symfony\dependency-injection\Loader\Configurator\ContainerConfigurator.php</b> on line <b>131</b><br />
+<br />
+<b>Deprecated</b>:  Symfony\Component\DependencyInjection\Loader\Configurator\inline_service(): Implicitly marking parameter $class as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\symfony\dependency-injection\Loader\Configurator\ContainerConfigurator.php</b> on line <b>141</b><br />
+<br />
+<b>Deprecated</b>:  Symfony\Component\DependencyInjection\Loader\Configurator\tagged_iterator(): Implicitly marking parameter $indexAttribute as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\symfony\dependency-injection\Loader\Configurator\ContainerConfigurator.php</b> on line <b>169</b><br />
+<br />
+<b>Deprecated</b>:  Symfony\Component\DependencyInjection\Loader\Configurator\tagged_iterator(): Implicitly marking parameter $defaultIndexMethod as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\symfony\dependency-injection\Loader\Configurator\ContainerConfigurator.php</b> on line <b>169</b><br />
+<br />
+<b>Deprecated</b>:  Symfony\Component\DependencyInjection\Loader\Configurator\tagged_iterator(): Implicitly marking parameter $defaultPriorityMethod as nullable is deprecated, the explicit nullable type must be used instead in <b>F:\xampp\phpMyAdmin\vendor\symfony\dependency-injection\Loader\Configurator\ContainerConfigurator.php</b> on line <b>169</b><br />
+<br />
+<b>Deprecated</b>:  Constant E_STRICT is deprecated in <b>F:\xampp\phpMyAdmin\libraries\classes\Error.php</b> on line <b>72</b><br />
+<br />
+<b>Deprecated</b>:  Constant E_STRICT is deprecated in <b>F:\xampp\phpMyAdmin\libraries\classes\Error.php</b> on line <b>96</b><br />
+<br />
+<b>Deprecated</b>:  Constant E_STRICT is deprecated in <b>F:\xampp\phpMyAdmin\libraries\classes\ErrorHandler.php</b> on line <b>285</b><br />
+var Messages = {"strConfirm":"Confirm","strDoYouReally":"Do you really want to execute \"%s\"?","strDropDatabaseStrongWarning":"You are about to DESTROY a complete database!","strDatabaseRenameToSameName":"Cannot rename database to the same name. Change the name and try again","strDropTableStrongWarning":"You are about to DESTROY a complete table!","strTruncateTableStrongWarning":"You are about to TRUNCATE a complete table!","strDeleteTableStrongWarning":"You are about to DELETE all the rows of the table!","strDeleteTrackingData":"Delete tracking data for this table?","strDeleteTrackingDataMultiple":"Delete tracking data for these tables?","strDeleteTrackingVersion":"Delete tracking data for this version?","strDeleteTrackingVersionMultiple":"Delete tracking data for these versions?","strDeletingTrackingEntry":"Delete entry from tracking report?","strDeletingTrackingData":"Deleting tracking data","strDroppingPrimaryKeyIndex":"Dropping Primary Key\/Index","strDroppingForeignKey":"Dropping Foreign key.","strOperationTakesLongTime":"This operation could take a long time. Proceed anyway?","strDropUserGroupWarning":"Do you really want to delete user group \"%s\"?","strConfirmDeleteQBESearch":"Do you really want to delete the search \"%s\"?","strConfirmNavigation":"You have unsaved changes; are you sure you want to leave this page?","strConfirmRowChange":"You are trying to reduce the number of rows, but have already entered data in those rows which will be lost. Do you wish to continue?","strDropUserWarning":"Do you really want to revoke the selected user(s) ?","strDeleteCentralColumnWarning":"Do you really want to delete this central column?","strDropRTEitems":"Do you really want to delete the selected items?","strDropPartitionWarning":"Do you really want to DROP the selected partition(s)? This will also DELETE the data related to the selected partition(s)!","strTruncatePartitionWarning":"Do you really want to TRUNCATE the selected partition(s)?","strRemovePartitioningWarning":"Do you really want to remove partitioning?","strResetReplicaWarning":"Do you really want to reset the replica (RESET REPLICA)?","strChangeColumnCollation":"This operation will attempt to convert your data to the new collation. In rare cases, especially where a character doesn't exist in the new collation, this process could cause the data to appear incorrectly under the new collation; in this case we suggest you revert to the original collation and refer to the tips at <a href=\"%s\" target=\"garbled_data_wiki\">Garbled Data<\/a>.<br><br>Are you sure you wish to change the collation and convert the data?","strChangeAllColumnCollationsWarning":"Through this operation, MySQL attempts to map the data values between collations. If the character sets are incompatible, there may be data loss and this lost data may <b>NOT<\/b> be recoverable simply by changing back the column collation(s). <b>To convert existing data, it is suggested to use the column(s) editing feature (the \"Change\" Link) on the table structure page. <\/b><br><br>Are you sure you wish to change all the column collations and convert the data?","strSaveAndClose":"Save & close","strReset":"Reset","strResetAll":"Reset all","strFormEmpty":"Missing value in the form!","strRadioUnchecked":"Select at least one of the options!","strEnterValidNumber":"Please enter a valid number!","strEnterValidLength":"Please enter a valid length!","strAddIndex":"Add index","strEditIndex":"Edit index","strRenameIndex":"Rename index","strAddToIndex":"Add %s column(s) to index","strCreateSingleColumnIndex":"Create single-column index","strCreateCompositeIndex":"Create composite index","strCompositeWith":"Composite with:","strMissingColumn":"Please select column(s) for the index.","strPreviewSQL":"Preview SQL","strSimulateDML":"Simulate query","strMatchedRows":"Matched rows:","strSQLQuery":"SQL query:","strYValues":"Y values","strEmptyQuery":"Please enter the SQL query first.","strHostEmpty":"The host name is empty!","strUserEmpty":"The user name is empty!","strPasswordEmpty":"The password is empty!","strPasswordNotSame":"The passwords aren't the same!","strRemovingSelectedUsers":"Removing Selected Users","strClose":"Close","strLock":"Lock","strUnlock":"Unlock","strLockAccount":"Lock this account.","strUnlockAccount":"Unlock this account.","strTemplateCreated":"Template was created.","strTemplateLoaded":"Template was loaded.","strTemplateUpdated":"Template was updated.","strTemplateDeleted":"Template was deleted.","strOther":"Other","strThousandsSeparator":",","strDecimalSeparator":".","strChartConnectionsTitle":"Connections \/ Processes","strIncompatibleMonitorConfig":"Local monitor configuration incompatible!","strIncompatibleMonitorConfigDescription":"The chart arrangement configuration in your browsers local storage is not compatible anymore to the newer version of the monitor dialog. It is very likely that your current configuration will not work anymore. Please reset your configuration to default in the <i>Settings<\/i> menu.","strQueryCacheEfficiency":"Query cache efficiency","strQueryCacheUsage":"Query cache usage","strQueryCacheUsed":"Query cache used","strSystemCPUUsage":"System CPU usage","strSystemMemory":"System memory","strSystemSwap":"System swap","strAverageLoad":"Average load","strTotalMemory":"Total memory","strCachedMemory":"Cached memory","strBufferedMemory":"Buffered memory","strFreeMemory":"Free memory","strUsedMemory":"Used memory","strTotalSwap":"Total swap","strCachedSwap":"Cached swap","strUsedSwap":"Used swap","strFreeSwap":"Free swap","strBytesSent":"Bytes sent","strBytesReceived":"Bytes received","strConnections":"Connections","strProcesses":"Processes","strB":"B","strKiB":"KiB","strMiB":"MiB","strGiB":"GiB","strTiB":"TiB","strPiB":"PiB","strEiB":"EiB","strNTables":"%d table(s)","strQuestions":"Questions","strTraffic":"Traffic","strSettings":"Settings","strAddChart":"Add chart to grid","strAddOneSeriesWarning":"Please add at least one variable to the series!","strNone":"None","strQuery":"SQL Query","strResumeMonitor":"Resume monitor","strPauseMonitor":"Pause monitor","strStartRefresh":"Start auto refresh","strStopRefresh":"Stop auto refresh","strBothLogOn":"general_log and slow_query_log are enabled.","strGenLogOn":"general_log is enabled.","strSlowLogOn":"slow_query_log is enabled.","strBothLogOff":"slow_query_log and general_log are disabled.","strLogOutNotTable":"log_output is not set to TABLE.","strLogOutIsTable":"log_output is set to TABLE.","strSmallerLongQueryTimeAdvice":"slow_query_log is enabled, but the server logs only queries that take longer than %d seconds. It is advisable to set this long_query_time 0-2 seconds, depending on your system.","strLongQueryTimeSet":"long_query_time is set to %d second(s).","strSettingsAppliedGlobal":"Following settings will be applied globally and reset to default on server restart:","strSetLogOutput":"Set log_output to %s","strEnableVar":"Enable %s","strDisableVar":"Disable %s","setSetLongQueryTime":"Set long_query_time to %d seconds.","strNoSuperUser":"You can't change these variables. Please log in as root or contact your database administrator.","strChangeSettings":"Change settings","strCurrentSettings":"Current settings","strChartTitle":"Chart title","strDifferential":"Differential","strDividedBy":"Divided by %s","strUnit":"Unit","strFromSlowLog":"From slow log","strFromGeneralLog":"From general log","strServerLogError":"The database name is not known for this query in the server's logs.","strAnalysingLogsTitle":"Analysing logs","strAnalysingLogs":"Analysing & loading logs. This may take a while.","strCancelRequest":"Cancel request","strCountColumnExplanation":"This column shows the amount of identical queries that are grouped together. However only the SQL query itself has been used as a grouping criteria, so the other attributes of queries, such as start time, may differ.","strMoreCountColumnExplanation":"Since grouping of INSERTs queries has been selected, INSERT queries into the same table are also being grouped together, disregarding of the inserted data.","strLogDataLoaded":"Log data loaded. Queries executed in this time span:","strJumpToTable":"Jump to Log table","strNoDataFoundTitle":"No data found","strNoDataFound":"Log analysed, but no data found in this time span.","strAnalyzing":"Analyzing\u2026","strExplainOutput":"Explain output","strStatus":"Status","strTime":"Time","strTotalTime":"Total time:","strProfilingResults":"Profiling results","strTable":"Table","strChart":"Chart","strAliasDatabase":"Database","strAliasTable":"Table","strAliasColumn":"Column","strFiltersForLogTable":"Log table filter options","strFilter":"Filter","strFilterByWordRegexp":"Filter queries by word\/regexp:","strIgnoreWhereAndGroup":"Group queries, ignoring variable data in WHERE clauses","strSumRows":"Sum of grouped rows:","strTotal":"Total:","strLoadingLogs":"Loading logs","strRefreshFailed":"Monitor refresh failed","strInvalidResponseExplanation":"While requesting new chart data the server returned an invalid response. This is most likely because your session expired. Reloading the page and reentering your credentials should help.","strReloadPage":"Reload page","strAffectedRows":"Affected rows:","strFailedParsingConfig":"Failed parsing config file. It doesn't seem to be valid JSON code.","strFailedBuildingGrid":"Failed building chart grid with imported config. Resetting to default config\u2026","strImport":"Import","strImportDialogTitle":"Import monitor configuration","strImportDialogMessage":"Please select the file you want to import:","strTableNameDialogMessage":"Please enter a valid table name.","strDBNameDialogMessage":"Please enter a valid database name.","strNoImportFile":"No files available on server for import!","strAnalyzeQuery":"Analyse query","strFormatting":"Formatting SQL\u2026","strNoParam":"No parameters found!","strGo":"Go","strCancel":"Cancel","strPageSettings":"Page-related settings","strApply":"Apply","strLoading":"Loading\u2026","strAbortedRequest":"Request aborted!!","strProcessingRequest":"Processing request","strRequestFailed":"Request failed!!","strErrorProcessingRequest":"Error in processing request","strErrorCode":"Error code: %s","strErrorText":"Error text: %s","strErrorConnection":"It seems that the connection to server has been lost. Please check your network connectivity and server status.","strNoDatabasesSelected":"No databases selected.","strNoTableSelected":"No table selected.","strNoAccountSelected":"No accounts selected.","strDroppingColumn":"Dropping column","strAddingPrimaryKey":"Adding primary key","strOK":"OK","strDismiss":"Click to dismiss this notification","strRenamingDatabases":"Renaming databases","strCopyingDatabase":"Copying database","strChangingCharset":"Changing charset","strNo":"No","strForeignKeyCheck":"Enable foreign key checks","strErrorRealRowCount":"Failed to get real row count.","strSearching":"Searching","strHideSearchResults":"Hide search results","strShowSearchResults":"Show search results","strBrowsing":"Browsing","strDeleting":"Deleting","strConfirmDeleteResults":"Delete the matches for the %s table?","MissingReturn":"The definition of a stored function must contain a RETURN statement!","strExport":"Export","NoExportable":"No routine is exportable. Required privileges may be lacking.","enum_columnVals":"Values for column %s","enum_newColumnVals":"Values for a new column","enum_hint":"Enter each value in a separate field.","enum_addValue":"Add %d value(s)","strImportCSV":"Note: If the file contains multiple tables, they will be combined into one.","strHideQueryBox":"Hide query box","strShowQueryBox":"Show query box","strEdit":"Edit","strDelete":"Delete","strNotValidRowNumber":"%d is not valid row number.","strBrowseForeignValues":"Browse foreign values","strNoAutoSavedQuery":"No previously auto-saved query is available. Loading default query.","strPreviousSaveQuery":"You have a previously saved query. Click Get auto-saved query to load the query.","strBookmarkVariable":"Variable %d:","pickColumn":"Pick","pickColumnTitle":"Column selector","searchList":"Search this list","strEmptyCentralList":"No columns in the central list. Make sure the Central columns list for database %s has columns that are not present in the current table.","seeMore":"See more","strAddPrimaryKey":"Add primary key","strPrimaryKeyAdded":"Primary key added.","strToNextStep":"Taking you to next step\u2026","strFinishMsg":"The first step of normalization is complete for table '%s'.","strEndStep":"End of step","str2NFNormalization":"Second step of normalization (2NF)","strDone":"Done","strConfirmPd":"Confirm partial dependencies","strSelectedPd":"Selected partial dependencies are as follows:","strPdHintNote":"Note: a, b -> d,f implies values of columns a and b combined together can determine values of column d and column f.","strNoPdSelected":"No partial dependencies selected!","strBack":"Back","strShowPossiblePd":"Show me the possible partial dependencies based on data in the table","strHidePd":"Hide partial dependencies list","strWaitForPd":"Sit tight! It may take few seconds depending on data size and column count of the table.","strStep":"Step","strMoveRepeatingGroup":"<ol><b>The following actions will be performed:<\/b><li>DROP columns %s from the table %s<\/li><li>Create the following table<\/li>","strNewTablePlaceholder":"Enter new table name","strNewColumnPlaceholder":"Enter column name","str3NFNormalization":"Third step of normalization (3NF)","strConfirmTd":"Confirm transitive dependencies","strSelectedTd":"Selected dependencies are as follows:","strNoTdSelected":"No dependencies selected!","strSave":"Save","strHideSearchCriteria":"Hide search criteria","strShowSearchCriteria":"Show search criteria","strColumnMax":"Column maximum:","strColumnMin":"Column minimum:","strHideFindNReplaceCriteria":"Hide find and replace criteria","strShowFindNReplaceCriteria":"Show find and replace criteria","strDisplayHelp":"<ul><li>Each point represents a data row.<\/li><li>Hovering over a point will show its label.<\/li><li>To zoom in, select a section of the plot with the mouse.<\/li><li>Click reset zoom button to come back to original state.<\/li><li>Click a data point to view and possibly edit the data row.<\/li><li>The plot can be resized by dragging it along the bottom right corner.<\/li><\/ul>","strHelpTitle":"Zoom search instructions","strInputNull":"<strong>Select two columns<\/strong>","strSameInputs":"<strong>Select two different columns<\/strong>","strDataPointContent":"Data point content","strIgnore":"Ignore","strCopy":"Copy","strX":"X","strY":"Y","strPoint":"Point","strPointN":"Point %d","strLineString":"Linestring","strPolygon":"Polygon","strGeometry":"Geometry","strInnerRing":"Inner ring","strOuterRing":"Outer ring","strAddPoint":"Add a point","strAddInnerRing":"Add an inner ring","strYes":"Yes","strCopyEncryptionKey":"Do you want to copy encryption key?","strEncryptionKey":"Encryption key","HexConversionInfo":"The HEX function will treat the integer as a string while calculating the hexadecimal value","strMysqlAllowedValuesTipTime":"MySQL accepts additional values not selectable by the slider; key in those values directly if desired","strMysqlAllowedValuesTipDate":"MySQL accepts additional values not selectable by the datepicker; key in those values directly if desired","strLockToolTip":"Indicates that you have made changes to this page; you will be prompted for confirmation before abandoning changes","strSelectReferencedKey":"Select referenced key","strSelectForeignKey":"Select Foreign Key","strPleaseSelectPrimaryOrUniqueKey":"Please select the primary key or a unique key!","strChangeDisplay":"Choose column to display","strLeavingDesigner":"You haven't saved the changes in the layout. They will be lost if you don't save them. Do you want to continue?","strQueryEmpty":"value\/subQuery is empty","strAddTables":"Add tables from other databases","strPageName":"Page name","strSavePage":"Save page","strSavePageAs":"Save page as","strOpenPage":"Open page","strDeletePage":"Delete page","strSavedPageTableMissing":"Some tables saved in this page might have been renamed or deleted.","strUntitled":"Untitled","strSelectPage":"Please select a page to continue","strEnterValidPageName":"Please enter a valid page name","strLeavingPage":"Do you want to save the changes to the current page?","strSuccessfulPageDelete":"Successfully deleted the page","strExportRelationalSchema":"Export relational schema","strModificationSaved":"Modifications have been saved","strObjectsCreated":"%d object(s) created.","strColumnName":"Column name","strSubmit":"Submit","strCellEditHint":"Press escape to cancel editing.<br>- Shift+Enter for a newline.","strSaveCellWarning":"You have edited some data and they have not been saved. Are you sure you want to leave this page before saving the data?","strColOrderHint":"Drag to reorder.","strSortHint":"Click to sort results by this column.","strMultiSortHint":"Shift+Click to add this column to ORDER BY clause or to toggle ASC\/DESC.<br>- Ctrl+Click or Alt+Click (Mac: Shift+Option+Click) to remove column from ORDER BY clause","strColMarkHint":"Click to mark\/unmark.","strColNameCopyHint":"Double-click to copy column name.","strColVisibHint":"Click the drop-down arrow<br>to toggle column's visibility.","strShowAllCol":"Show all","strAlertNonUnique":"This table does not contain a unique column. Features related to the grid edit, checkbox, Edit, Copy and Delete links may not work after saving.","strEnterValidHex":"Please enter a valid hexadecimal string. Valid characters are 0-9, A-F.","strShowAllRowsWarning":"Do you really want to see all of the rows? For a big table this could crash the browser.","strOriginalLength":"Original length","dropImportMessageCancel":"cancel","dropImportMessageAborted":"Aborted","dropImportMessageFailed":"Failed","dropImportMessageSuccess":"Success","dropImportImportResultHeader":"Import status","dropImportDropFiles":"Drop files here","dropImportSelectDB":"Select database first","strGridEditFeatureHint":"You can also edit most values<br>by double-clicking directly on them.","strGoToLink":"Go to link:","strGeneratePassword":"Generate password","strGenerate":"Generate","strChangePassword":"Change password","strMore":"More","strShowPanel":"Show panel","strHidePanel":"Hide panel","linkWithMain":"Link with main panel","unlinkWithMain":"Unlink from main panel","strNewerVersion":"A newer version of phpMyAdmin is available and you should consider upgrading. The newest version is %s, released on %s.","strLatestAvailable":", latest stable version:","strUpToDate":"up to date","strErrorOccurred":"A fatal JavaScript error has occurred. Would you like to send an error report?","strChangeReportSettings":"Change report settings","strShowReportDetails":"Show report details","strTimeOutError":"Your export is incomplete, due to a low execution time limit at the PHP level!","strTooManyInputs":"Warning: a form on this page has more than %d fields. On submission, some of the fields might be ignored, due to PHP's max_input_vars configuration.","phpErrorsFound":"<div class=\"alert alert-danger\" role=\"alert\">Some errors have been detected on the server!<br>Please look at the bottom of this window.<div><input id=\"pma_ignore_errors_popup\" type=\"submit\" value=\"Ignore\" class=\"btn btn-secondary float-end message_errors_found\"><input id=\"pma_ignore_all_errors_popup\" type=\"submit\" value=\"Ignore All\" class=\"btn btn-secondary float-end message_errors_found\"><\/div><\/div>","phpErrorsBeingSubmitted":"<div class=\"alert alert-danger\" role=\"alert\">Some errors have been detected on the server!<br>As per your settings, they are being submitted currently, please be patient.<br><img src=\".\/themes\/pmahomme\/img\/ajax_clock_small.gif\" width=\"16\" height=\"16\" alt=\"ajax clock\"><\/div>","strCopyColumnSuccess":"Column name successfully copied to clipboard!","strCopyColumnFailure":"Column name copying to clipboard failed!","strCopyQueryButtonSuccess":"Successfully copied!","strCopyQueryButtonFailure":"Copying failed!","strConsoleRequeryConfirm":"Execute this query again?","strConsoleDeleteBookmarkConfirm":"Do you really want to delete this bookmark?","strConsoleDebugError":"Some error occurred while getting SQL debug info.","strConsoleDebugSummary":"%s queries executed %s times in %s seconds.","strConsoleDebugArgsSummary":"%s argument(s) passed","strConsoleDebugShowArgs":"Show arguments","strConsoleDebugHideArgs":"Hide arguments","strConsoleDebugTimeTaken":"Time taken:","strNoLocalStorage":"There was a problem accessing your browser storage, some features may not work properly for you. It is likely that the browser doesn't support storage or the quota limit has been reached. In Firefox, corrupted storage can also cause such a problem, clearing your \"Offline Website Data\" might help. In Safari, such problem is commonly caused by \"Private Mode Browsing\".","strCopyTablesTo":"Copy tables to","strAddPrefix":"Add table prefix","strReplacePrefix":"Replace table with prefix","strCopyPrefix":"Copy table with prefix","strExtrWeak":"Extremely weak","strVeryWeak":"Very weak","strWeak":"Weak","strGood":"Good","strStrong":"Strong","strU2FTimeout":"Timed out waiting for security key activation.","strU2FBadRequest":"Invalid request sent to security key.","strU2FUnknown":"Unknown security key error.","strU2FInvalidClient":"Client does not support security key.","strU2FErrorRegister":"Failed security key activation.","strU2FErrorAuthenticate":"Invalid security key.","webAuthnNotSupported":"WebAuthn is not available. Please use a supported browser in a secure context (HTTPS).","strIndexedDBNotWorking":"You can not open, save or delete your page layout, as IndexedDB is not working in your browser and your phpMyAdmin configuration storage is not configured for this.","strTableAlreadyExists":"Table %s already exists!","strHide":"Hide","strShow":"Show","strStructure":"Structure"};

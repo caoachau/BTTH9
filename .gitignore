@@ -1,8 +1,0 @@
-/config.local.php
-/storage/avatars/*
-!/storage/avatars/.gitkeep
-!/storage/avatars/.htaccess
-/.runtime/
-/docs/extracted/*.png
-/docs/extracted/*.pdf
-/*.log
